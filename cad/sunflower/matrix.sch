@@ -1,0 +1,3411 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L sunflower:TM1640 U1
+U 1 1 64FC045B
+P 2350 2350
+AR Path="/64FB7FC8/64FC045B" Ref="U1"  Part="1" 
+AR Path="/65503ECD/64FC045B" Ref="U2"  Part="1" 
+AR Path="/65503F83/64FC045B" Ref="U3"  Part="1" 
+F 0 "U1" H 2350 3315 50  0000 C CNN
+F 1 "TM1640" H 2350 3224 50  0000 C CNN
+F 2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" H 2350 3250 50  0001 C CNN
+F 3 "" H 2350 3250 50  0001 C CNN
+	1    2350 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D1
+U 1 1 64FC25A0
+P 4550 3100
+AR Path="/64FB7FC8/64FC25A0" Ref="D1"  Part="1" 
+AR Path="/65503ECD/64FC25A0" Ref="D129"  Part="1" 
+AR Path="/65503F83/64FC25A0" Ref="D257"  Part="1" 
+F 0 "D1" H 4550 3243 50  0000 C CNN
+F 1 "LED_Small" H 4550 3244 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 4550 3100 50  0001 C CNN
+F 3 "~" V 4550 3100 50  0001 C CNN
+	1    4550 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D9
+U 1 1 64FCCA40
+P 4850 3100
+AR Path="/64FB7FC8/64FCCA40" Ref="D9"  Part="1" 
+AR Path="/65503ECD/64FCCA40" Ref="D137"  Part="1" 
+AR Path="/65503F83/64FCCA40" Ref="D265"  Part="1" 
+F 0 "D9" H 4850 3243 50  0000 C CNN
+F 1 "LED_Small" H 4850 3244 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 4850 3100 50  0001 C CNN
+F 3 "~" V 4850 3100 50  0001 C CNN
+	1    4850 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D17
+U 1 1 64FCF6E9
+P 5150 3100
+AR Path="/64FB7FC8/64FCF6E9" Ref="D17"  Part="1" 
+AR Path="/65503ECD/64FCF6E9" Ref="D145"  Part="1" 
+AR Path="/65503F83/64FCF6E9" Ref="D273"  Part="1" 
+F 0 "D17" H 5150 3243 50  0000 C CNN
+F 1 "LED_Small" H 5150 3244 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 5150 3100 50  0001 C CNN
+F 3 "~" V 5150 3100 50  0001 C CNN
+	1    5150 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D25
+U 1 1 64FCF77F
+P 5450 3100
+AR Path="/64FB7FC8/64FCF77F" Ref="D25"  Part="1" 
+AR Path="/65503ECD/64FCF77F" Ref="D153"  Part="1" 
+AR Path="/65503F83/64FCF77F" Ref="D281"  Part="1" 
+F 0 "D25" H 5450 3243 50  0000 C CNN
+F 1 "LED_Small" H 5450 3244 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 5450 3100 50  0001 C CNN
+F 3 "~" V 5450 3100 50  0001 C CNN
+	1    5450 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D33
+U 1 1 64FD55A9
+P 5750 3100
+AR Path="/64FB7FC8/64FD55A9" Ref="D33"  Part="1" 
+AR Path="/65503ECD/64FD55A9" Ref="D161"  Part="1" 
+AR Path="/65503F83/64FD55A9" Ref="D289"  Part="1" 
+F 0 "D33" H 5750 3243 50  0000 C CNN
+F 1 "LED_Small" H 5750 3244 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 5750 3100 50  0001 C CNN
+F 3 "~" V 5750 3100 50  0001 C CNN
+	1    5750 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D41
+U 1 1 64FD566F
+P 6050 3100
+AR Path="/64FB7FC8/64FD566F" Ref="D41"  Part="1" 
+AR Path="/65503ECD/64FD566F" Ref="D169"  Part="1" 
+AR Path="/65503F83/64FD566F" Ref="D297"  Part="1" 
+F 0 "D41" H 6050 3243 50  0000 C CNN
+F 1 "LED_Small" H 6050 3244 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 6050 3100 50  0001 C CNN
+F 3 "~" V 6050 3100 50  0001 C CNN
+	1    6050 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D49
+U 1 1 64FD567B
+P 6350 3100
+AR Path="/64FB7FC8/64FD567B" Ref="D49"  Part="1" 
+AR Path="/65503ECD/64FD567B" Ref="D177"  Part="1" 
+AR Path="/65503F83/64FD567B" Ref="D305"  Part="1" 
+F 0 "D49" H 6350 3243 50  0000 C CNN
+F 1 "LED_Small" H 6350 3244 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 6350 3100 50  0001 C CNN
+F 3 "~" V 6350 3100 50  0001 C CNN
+	1    6350 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D57
+U 1 1 64FD5689
+P 6650 3100
+AR Path="/64FB7FC8/64FD5689" Ref="D57"  Part="1" 
+AR Path="/65503ECD/64FD5689" Ref="D185"  Part="1" 
+AR Path="/65503F83/64FD5689" Ref="D313"  Part="1" 
+F 0 "D57" H 6650 3243 50  0000 C CNN
+F 1 "LED_Small" H 6650 3244 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 6650 3100 50  0001 C CNN
+F 3 "~" V 6650 3100 50  0001 C CNN
+	1    6650 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D65
+U 1 1 64FDA3F5
+P 6950 3100
+AR Path="/64FB7FC8/64FDA3F5" Ref="D65"  Part="1" 
+AR Path="/65503ECD/64FDA3F5" Ref="D193"  Part="1" 
+AR Path="/65503F83/64FDA3F5" Ref="D321"  Part="1" 
+F 0 "D65" H 6950 3243 50  0000 C CNN
+F 1 "LED_Small" H 6950 3244 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 6950 3100 50  0001 C CNN
+F 3 "~" V 6950 3100 50  0001 C CNN
+	1    6950 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D73
+U 1 1 64FDA51B
+P 7250 3100
+AR Path="/64FB7FC8/64FDA51B" Ref="D73"  Part="1" 
+AR Path="/65503ECD/64FDA51B" Ref="D201"  Part="1" 
+AR Path="/65503F83/64FDA51B" Ref="D329"  Part="1" 
+F 0 "D73" H 7250 3243 50  0000 C CNN
+F 1 "LED_Small" H 7250 3244 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 7250 3100 50  0001 C CNN
+F 3 "~" V 7250 3100 50  0001 C CNN
+	1    7250 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D81
+U 1 1 64FDA527
+P 7550 3100
+AR Path="/64FB7FC8/64FDA527" Ref="D81"  Part="1" 
+AR Path="/65503ECD/64FDA527" Ref="D209"  Part="1" 
+AR Path="/65503F83/64FDA527" Ref="D337"  Part="1" 
+F 0 "D81" H 7550 3243 50  0000 C CNN
+F 1 "LED_Small" H 7550 3244 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 7550 3100 50  0001 C CNN
+F 3 "~" V 7550 3100 50  0001 C CNN
+	1    7550 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D89
+U 1 1 64FDA535
+P 7850 3100
+AR Path="/64FB7FC8/64FDA535" Ref="D89"  Part="1" 
+AR Path="/65503ECD/64FDA535" Ref="D217"  Part="1" 
+AR Path="/65503F83/64FDA535" Ref="D345"  Part="1" 
+F 0 "D89" H 7850 3243 50  0000 C CNN
+F 1 "LED_Small" H 7850 3244 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 7850 3100 50  0001 C CNN
+F 3 "~" V 7850 3100 50  0001 C CNN
+	1    7850 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D97
+U 1 1 64FDA541
+P 8150 3100
+AR Path="/64FB7FC8/64FDA541" Ref="D97"  Part="1" 
+AR Path="/65503ECD/64FDA541" Ref="D225"  Part="1" 
+AR Path="/65503F83/64FDA541" Ref="D353"  Part="1" 
+F 0 "D97" H 8150 3243 50  0000 C CNN
+F 1 "LED_Small" H 8150 3244 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 8150 3100 50  0001 C CNN
+F 3 "~" V 8150 3100 50  0001 C CNN
+	1    8150 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D105
+U 1 1 64FDA54F
+P 8450 3100
+AR Path="/64FB7FC8/64FDA54F" Ref="D105"  Part="1" 
+AR Path="/65503ECD/64FDA54F" Ref="D233"  Part="1" 
+AR Path="/65503F83/64FDA54F" Ref="D361"  Part="1" 
+F 0 "D105" H 8450 3243 50  0000 C CNN
+F 1 "LED_Small" H 8450 3244 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 8450 3100 50  0001 C CNN
+F 3 "~" V 8450 3100 50  0001 C CNN
+	1    8450 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D113
+U 1 1 64FDA55B
+P 8750 3100
+AR Path="/64FB7FC8/64FDA55B" Ref="D113"  Part="1" 
+AR Path="/65503ECD/64FDA55B" Ref="D241"  Part="1" 
+AR Path="/65503F83/64FDA55B" Ref="D369"  Part="1" 
+F 0 "D113" H 8750 3243 50  0000 C CNN
+F 1 "LED_Small" H 8750 3244 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 8750 3100 50  0001 C CNN
+F 3 "~" V 8750 3100 50  0001 C CNN
+	1    8750 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D121
+U 1 1 64FDA569
+P 9050 3100
+AR Path="/64FB7FC8/64FDA569" Ref="D121"  Part="1" 
+AR Path="/65503ECD/64FDA569" Ref="D249"  Part="1" 
+AR Path="/65503F83/64FDA569" Ref="D377"  Part="1" 
+F 0 "D121" H 9050 3243 50  0000 C CNN
+F 1 "LED_Small" H 9050 3244 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 9050 3100 50  0001 C CNN
+F 3 "~" V 9050 3100 50  0001 C CNN
+	1    9050 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 2800 4750 3100
+Wire Wire Line
+	5050 2800 5050 3100
+Wire Wire Line
+	5350 2800 5350 3100
+Wire Wire Line
+	5650 2800 5650 3100
+Wire Wire Line
+	5950 2800 5950 3100
+Wire Wire Line
+	6250 2800 6250 3100
+Wire Wire Line
+	6550 2800 6550 3100
+Wire Wire Line
+	6850 2800 6850 3100
+Wire Wire Line
+	7150 2800 7150 3100
+Wire Wire Line
+	7450 2800 7450 3100
+Wire Wire Line
+	7750 2800 7750 3100
+Wire Wire Line
+	8050 2800 8050 3100
+Wire Wire Line
+	8350 2800 8350 3100
+Wire Wire Line
+	8650 2800 8650 3100
+Wire Wire Line
+	8950 2800 8950 3100
+Wire Wire Line
+	4350 2900 4650 2900
+Wire Wire Line
+	9150 2900 9150 3100
+Wire Wire Line
+	8850 2900 8850 3100
+Connection ~ 8850 2900
+Wire Wire Line
+	8850 2900 9150 2900
+Wire Wire Line
+	8550 2900 8550 3100
+Connection ~ 8550 2900
+Wire Wire Line
+	8550 2900 8850 2900
+Wire Wire Line
+	8250 2900 8250 3100
+Connection ~ 8250 2900
+Wire Wire Line
+	8250 2900 8550 2900
+Wire Wire Line
+	7950 2900 7950 3100
+Connection ~ 7950 2900
+Wire Wire Line
+	7950 2900 8250 2900
+Wire Wire Line
+	7650 2900 7650 3100
+Connection ~ 7650 2900
+Wire Wire Line
+	7650 2900 7950 2900
+Wire Wire Line
+	7350 2900 7350 3100
+Connection ~ 7350 2900
+Wire Wire Line
+	7350 2900 7650 2900
+Wire Wire Line
+	7050 2900 7050 3100
+Connection ~ 7050 2900
+Wire Wire Line
+	7050 2900 7350 2900
+Wire Wire Line
+	6750 2900 6750 3100
+Connection ~ 6750 2900
+Wire Wire Line
+	6750 2900 7050 2900
+Wire Wire Line
+	6450 2900 6450 3100
+Connection ~ 6450 2900
+Wire Wire Line
+	6450 2900 6750 2900
+Wire Wire Line
+	6150 2900 6150 3100
+Connection ~ 6150 2900
+Wire Wire Line
+	6150 2900 6450 2900
+Wire Wire Line
+	5850 2900 5850 3100
+Connection ~ 5850 2900
+Wire Wire Line
+	5850 2900 6150 2900
+Wire Wire Line
+	5550 2900 5550 3100
+Connection ~ 5550 2900
+Wire Wire Line
+	5550 2900 5850 2900
+Wire Wire Line
+	5250 2900 5250 3100
+Connection ~ 5250 2900
+Wire Wire Line
+	5250 2900 5550 2900
+Wire Wire Line
+	4950 2900 4950 3100
+Connection ~ 4950 2900
+Wire Wire Line
+	4950 2900 5250 2900
+Wire Wire Line
+	4650 2900 4650 3100
+Connection ~ 4650 2900
+Wire Wire Line
+	4650 2900 4950 2900
+$Comp
+L Device:LED_Small D2
+U 1 1 6505309B
+P 4550 3400
+AR Path="/64FB7FC8/6505309B" Ref="D2"  Part="1" 
+AR Path="/65503ECD/6505309B" Ref="D130"  Part="1" 
+AR Path="/65503F83/6505309B" Ref="D258"  Part="1" 
+F 0 "D2" H 4550 3543 50  0000 C CNN
+F 1 "LED_Small" H 4550 3544 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 4550 3400 50  0001 C CNN
+F 3 "~" V 4550 3400 50  0001 C CNN
+	1    4550 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D10
+U 1 1 65053239
+P 4850 3400
+AR Path="/64FB7FC8/65053239" Ref="D10"  Part="1" 
+AR Path="/65503ECD/65053239" Ref="D138"  Part="1" 
+AR Path="/65503F83/65053239" Ref="D266"  Part="1" 
+F 0 "D10" H 4850 3543 50  0000 C CNN
+F 1 "LED_Small" H 4850 3544 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 4850 3400 50  0001 C CNN
+F 3 "~" V 4850 3400 50  0001 C CNN
+	1    4850 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D18
+U 1 1 65053243
+P 5150 3400
+AR Path="/64FB7FC8/65053243" Ref="D18"  Part="1" 
+AR Path="/65503ECD/65053243" Ref="D146"  Part="1" 
+AR Path="/65503F83/65053243" Ref="D274"  Part="1" 
+F 0 "D18" H 5150 3543 50  0000 C CNN
+F 1 "LED_Small" H 5150 3544 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 5150 3400 50  0001 C CNN
+F 3 "~" V 5150 3400 50  0001 C CNN
+	1    5150 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D26
+U 1 1 6505324D
+P 5450 3400
+AR Path="/64FB7FC8/6505324D" Ref="D26"  Part="1" 
+AR Path="/65503ECD/6505324D" Ref="D154"  Part="1" 
+AR Path="/65503F83/6505324D" Ref="D282"  Part="1" 
+F 0 "D26" H 5450 3543 50  0000 C CNN
+F 1 "LED_Small" H 5450 3544 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 5450 3400 50  0001 C CNN
+F 3 "~" V 5450 3400 50  0001 C CNN
+	1    5450 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D34
+U 1 1 65053257
+P 5750 3400
+AR Path="/64FB7FC8/65053257" Ref="D34"  Part="1" 
+AR Path="/65503ECD/65053257" Ref="D162"  Part="1" 
+AR Path="/65503F83/65053257" Ref="D290"  Part="1" 
+F 0 "D34" H 5750 3543 50  0000 C CNN
+F 1 "LED_Small" H 5750 3544 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 5750 3400 50  0001 C CNN
+F 3 "~" V 5750 3400 50  0001 C CNN
+	1    5750 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D42
+U 1 1 65053261
+P 6050 3400
+AR Path="/64FB7FC8/65053261" Ref="D42"  Part="1" 
+AR Path="/65503ECD/65053261" Ref="D170"  Part="1" 
+AR Path="/65503F83/65053261" Ref="D298"  Part="1" 
+F 0 "D42" H 6050 3543 50  0000 C CNN
+F 1 "LED_Small" H 6050 3544 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 6050 3400 50  0001 C CNN
+F 3 "~" V 6050 3400 50  0001 C CNN
+	1    6050 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D50
+U 1 1 6505326B
+P 6350 3400
+AR Path="/64FB7FC8/6505326B" Ref="D50"  Part="1" 
+AR Path="/65503ECD/6505326B" Ref="D178"  Part="1" 
+AR Path="/65503F83/6505326B" Ref="D306"  Part="1" 
+F 0 "D50" H 6350 3543 50  0000 C CNN
+F 1 "LED_Small" H 6350 3544 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 6350 3400 50  0001 C CNN
+F 3 "~" V 6350 3400 50  0001 C CNN
+	1    6350 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D58
+U 1 1 65053275
+P 6650 3400
+AR Path="/64FB7FC8/65053275" Ref="D58"  Part="1" 
+AR Path="/65503ECD/65053275" Ref="D186"  Part="1" 
+AR Path="/65503F83/65053275" Ref="D314"  Part="1" 
+F 0 "D58" H 6650 3543 50  0000 C CNN
+F 1 "LED_Small" H 6650 3544 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 6650 3400 50  0001 C CNN
+F 3 "~" V 6650 3400 50  0001 C CNN
+	1    6650 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D66
+U 1 1 6505327F
+P 6950 3400
+AR Path="/64FB7FC8/6505327F" Ref="D66"  Part="1" 
+AR Path="/65503ECD/6505327F" Ref="D194"  Part="1" 
+AR Path="/65503F83/6505327F" Ref="D322"  Part="1" 
+F 0 "D66" H 6950 3543 50  0000 C CNN
+F 1 "LED_Small" H 6950 3544 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 6950 3400 50  0001 C CNN
+F 3 "~" V 6950 3400 50  0001 C CNN
+	1    6950 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D74
+U 1 1 65053289
+P 7250 3400
+AR Path="/64FB7FC8/65053289" Ref="D74"  Part="1" 
+AR Path="/65503ECD/65053289" Ref="D202"  Part="1" 
+AR Path="/65503F83/65053289" Ref="D330"  Part="1" 
+F 0 "D74" H 7250 3543 50  0000 C CNN
+F 1 "LED_Small" H 7250 3544 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 7250 3400 50  0001 C CNN
+F 3 "~" V 7250 3400 50  0001 C CNN
+	1    7250 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D82
+U 1 1 65053293
+P 7550 3400
+AR Path="/64FB7FC8/65053293" Ref="D82"  Part="1" 
+AR Path="/65503ECD/65053293" Ref="D210"  Part="1" 
+AR Path="/65503F83/65053293" Ref="D338"  Part="1" 
+F 0 "D82" H 7550 3543 50  0000 C CNN
+F 1 "LED_Small" H 7550 3544 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 7550 3400 50  0001 C CNN
+F 3 "~" V 7550 3400 50  0001 C CNN
+	1    7550 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D90
+U 1 1 6505329D
+P 7850 3400
+AR Path="/64FB7FC8/6505329D" Ref="D90"  Part="1" 
+AR Path="/65503ECD/6505329D" Ref="D218"  Part="1" 
+AR Path="/65503F83/6505329D" Ref="D346"  Part="1" 
+F 0 "D90" H 7850 3543 50  0000 C CNN
+F 1 "LED_Small" H 7850 3544 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 7850 3400 50  0001 C CNN
+F 3 "~" V 7850 3400 50  0001 C CNN
+	1    7850 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D98
+U 1 1 650532A7
+P 8150 3400
+AR Path="/64FB7FC8/650532A7" Ref="D98"  Part="1" 
+AR Path="/65503ECD/650532A7" Ref="D226"  Part="1" 
+AR Path="/65503F83/650532A7" Ref="D354"  Part="1" 
+F 0 "D98" H 8150 3543 50  0000 C CNN
+F 1 "LED_Small" H 8150 3544 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 8150 3400 50  0001 C CNN
+F 3 "~" V 8150 3400 50  0001 C CNN
+	1    8150 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D106
+U 1 1 650532B1
+P 8450 3400
+AR Path="/64FB7FC8/650532B1" Ref="D106"  Part="1" 
+AR Path="/65503ECD/650532B1" Ref="D234"  Part="1" 
+AR Path="/65503F83/650532B1" Ref="D362"  Part="1" 
+F 0 "D106" H 8450 3543 50  0000 C CNN
+F 1 "LED_Small" H 8450 3544 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 8450 3400 50  0001 C CNN
+F 3 "~" V 8450 3400 50  0001 C CNN
+	1    8450 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D114
+U 1 1 650532BB
+P 8750 3400
+AR Path="/64FB7FC8/650532BB" Ref="D114"  Part="1" 
+AR Path="/65503ECD/650532BB" Ref="D242"  Part="1" 
+AR Path="/65503F83/650532BB" Ref="D370"  Part="1" 
+F 0 "D114" H 8750 3543 50  0000 C CNN
+F 1 "LED_Small" H 8750 3544 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 8750 3400 50  0001 C CNN
+F 3 "~" V 8750 3400 50  0001 C CNN
+	1    8750 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D122
+U 1 1 650532C5
+P 9050 3400
+AR Path="/64FB7FC8/650532C5" Ref="D122"  Part="1" 
+AR Path="/65503ECD/650532C5" Ref="D250"  Part="1" 
+AR Path="/65503F83/650532C5" Ref="D378"  Part="1" 
+F 0 "D122" H 9050 3543 50  0000 C CNN
+F 1 "LED_Small" H 9050 3544 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 9050 3400 50  0001 C CNN
+F 3 "~" V 9050 3400 50  0001 C CNN
+	1    9050 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 3100 4450 3400
+Wire Wire Line
+	4750 3100 4750 3400
+Wire Wire Line
+	5050 3100 5050 3400
+Wire Wire Line
+	5350 3100 5350 3400
+Wire Wire Line
+	5650 3100 5650 3400
+Wire Wire Line
+	5950 3100 5950 3400
+Wire Wire Line
+	6250 3100 6250 3400
+Wire Wire Line
+	6550 3100 6550 3400
+Wire Wire Line
+	6850 3100 6850 3400
+Wire Wire Line
+	7150 3100 7150 3400
+Wire Wire Line
+	7450 3100 7450 3400
+Wire Wire Line
+	7750 3100 7750 3400
+Wire Wire Line
+	8050 3100 8050 3400
+Wire Wire Line
+	8350 3100 8350 3400
+Wire Wire Line
+	8650 3100 8650 3400
+Wire Wire Line
+	8950 3100 8950 3400
+Wire Wire Line
+	4350 3200 4650 3200
+Wire Wire Line
+	9150 3200 9150 3400
+Wire Wire Line
+	8850 3200 8850 3400
+Connection ~ 8850 3200
+Wire Wire Line
+	8850 3200 9150 3200
+Wire Wire Line
+	8550 3200 8550 3400
+Connection ~ 8550 3200
+Wire Wire Line
+	8550 3200 8850 3200
+Wire Wire Line
+	8250 3200 8250 3400
+Connection ~ 8250 3200
+Wire Wire Line
+	8250 3200 8550 3200
+Wire Wire Line
+	7950 3200 7950 3400
+Connection ~ 7950 3200
+Wire Wire Line
+	7950 3200 8250 3200
+Wire Wire Line
+	7650 3200 7650 3400
+Connection ~ 7650 3200
+Wire Wire Line
+	7650 3200 7950 3200
+Wire Wire Line
+	7350 3200 7350 3400
+Connection ~ 7350 3200
+Wire Wire Line
+	7350 3200 7650 3200
+Wire Wire Line
+	7050 3200 7050 3400
+Connection ~ 7050 3200
+Wire Wire Line
+	7050 3200 7350 3200
+Wire Wire Line
+	6750 3200 6750 3400
+Connection ~ 6750 3200
+Wire Wire Line
+	6750 3200 7050 3200
+Wire Wire Line
+	6450 3200 6450 3400
+Connection ~ 6450 3200
+Wire Wire Line
+	6450 3200 6750 3200
+Wire Wire Line
+	6150 3200 6150 3400
+Connection ~ 6150 3200
+Wire Wire Line
+	6150 3200 6450 3200
+Wire Wire Line
+	5850 3200 5850 3400
+Connection ~ 5850 3200
+Wire Wire Line
+	5850 3200 6150 3200
+Wire Wire Line
+	5550 3200 5550 3400
+Connection ~ 5550 3200
+Wire Wire Line
+	5550 3200 5850 3200
+Wire Wire Line
+	5250 3200 5250 3400
+Connection ~ 5250 3200
+Wire Wire Line
+	5250 3200 5550 3200
+Wire Wire Line
+	4950 3200 4950 3400
+Connection ~ 4950 3200
+Wire Wire Line
+	4950 3200 5250 3200
+Wire Wire Line
+	4650 3200 4650 3400
+Connection ~ 4650 3200
+Wire Wire Line
+	4650 3200 4950 3200
+Connection ~ 4750 3100
+Connection ~ 5050 3100
+Connection ~ 5350 3100
+Connection ~ 5650 3100
+Connection ~ 5950 3100
+Connection ~ 6250 3100
+Connection ~ 6550 3100
+Connection ~ 6850 3100
+Connection ~ 7150 3100
+Connection ~ 7450 3100
+Connection ~ 7750 3100
+Connection ~ 8050 3100
+Connection ~ 8350 3100
+Connection ~ 8650 3100
+Connection ~ 8950 3100
+$Comp
+L Device:LED_Small D3
+U 1 1 6505E4AD
+P 4550 3700
+AR Path="/64FB7FC8/6505E4AD" Ref="D3"  Part="1" 
+AR Path="/65503ECD/6505E4AD" Ref="D131"  Part="1" 
+AR Path="/65503F83/6505E4AD" Ref="D259"  Part="1" 
+F 0 "D3" H 4550 3843 50  0000 C CNN
+F 1 "LED_Small" H 4550 3844 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 4550 3700 50  0001 C CNN
+F 3 "~" V 4550 3700 50  0001 C CNN
+	1    4550 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D11
+U 1 1 6505E80F
+P 4850 3700
+AR Path="/64FB7FC8/6505E80F" Ref="D11"  Part="1" 
+AR Path="/65503ECD/6505E80F" Ref="D139"  Part="1" 
+AR Path="/65503F83/6505E80F" Ref="D267"  Part="1" 
+F 0 "D11" H 4850 3843 50  0000 C CNN
+F 1 "LED_Small" H 4850 3844 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 4850 3700 50  0001 C CNN
+F 3 "~" V 4850 3700 50  0001 C CNN
+	1    4850 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D19
+U 1 1 6505E819
+P 5150 3700
+AR Path="/64FB7FC8/6505E819" Ref="D19"  Part="1" 
+AR Path="/65503ECD/6505E819" Ref="D147"  Part="1" 
+AR Path="/65503F83/6505E819" Ref="D275"  Part="1" 
+F 0 "D19" H 5150 3843 50  0000 C CNN
+F 1 "LED_Small" H 5150 3844 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 5150 3700 50  0001 C CNN
+F 3 "~" V 5150 3700 50  0001 C CNN
+	1    5150 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D27
+U 1 1 6505E823
+P 5450 3700
+AR Path="/64FB7FC8/6505E823" Ref="D27"  Part="1" 
+AR Path="/65503ECD/6505E823" Ref="D155"  Part="1" 
+AR Path="/65503F83/6505E823" Ref="D283"  Part="1" 
+F 0 "D27" H 5450 3843 50  0000 C CNN
+F 1 "LED_Small" H 5450 3844 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 5450 3700 50  0001 C CNN
+F 3 "~" V 5450 3700 50  0001 C CNN
+	1    5450 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D35
+U 1 1 6505E82D
+P 5750 3700
+AR Path="/64FB7FC8/6505E82D" Ref="D35"  Part="1" 
+AR Path="/65503ECD/6505E82D" Ref="D163"  Part="1" 
+AR Path="/65503F83/6505E82D" Ref="D291"  Part="1" 
+F 0 "D35" H 5750 3843 50  0000 C CNN
+F 1 "LED_Small" H 5750 3844 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 5750 3700 50  0001 C CNN
+F 3 "~" V 5750 3700 50  0001 C CNN
+	1    5750 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D43
+U 1 1 6505E837
+P 6050 3700
+AR Path="/64FB7FC8/6505E837" Ref="D43"  Part="1" 
+AR Path="/65503ECD/6505E837" Ref="D171"  Part="1" 
+AR Path="/65503F83/6505E837" Ref="D299"  Part="1" 
+F 0 "D43" H 6050 3843 50  0000 C CNN
+F 1 "LED_Small" H 6050 3844 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 6050 3700 50  0001 C CNN
+F 3 "~" V 6050 3700 50  0001 C CNN
+	1    6050 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D51
+U 1 1 6505E841
+P 6350 3700
+AR Path="/64FB7FC8/6505E841" Ref="D51"  Part="1" 
+AR Path="/65503ECD/6505E841" Ref="D179"  Part="1" 
+AR Path="/65503F83/6505E841" Ref="D307"  Part="1" 
+F 0 "D51" H 6350 3843 50  0000 C CNN
+F 1 "LED_Small" H 6350 3844 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 6350 3700 50  0001 C CNN
+F 3 "~" V 6350 3700 50  0001 C CNN
+	1    6350 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D59
+U 1 1 6505E84B
+P 6650 3700
+AR Path="/64FB7FC8/6505E84B" Ref="D59"  Part="1" 
+AR Path="/65503ECD/6505E84B" Ref="D187"  Part="1" 
+AR Path="/65503F83/6505E84B" Ref="D315"  Part="1" 
+F 0 "D59" H 6650 3843 50  0000 C CNN
+F 1 "LED_Small" H 6650 3844 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 6650 3700 50  0001 C CNN
+F 3 "~" V 6650 3700 50  0001 C CNN
+	1    6650 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D67
+U 1 1 6505E855
+P 6950 3700
+AR Path="/64FB7FC8/6505E855" Ref="D67"  Part="1" 
+AR Path="/65503ECD/6505E855" Ref="D195"  Part="1" 
+AR Path="/65503F83/6505E855" Ref="D323"  Part="1" 
+F 0 "D67" H 6950 3843 50  0000 C CNN
+F 1 "LED_Small" H 6950 3844 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 6950 3700 50  0001 C CNN
+F 3 "~" V 6950 3700 50  0001 C CNN
+	1    6950 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D75
+U 1 1 6505E85F
+P 7250 3700
+AR Path="/64FB7FC8/6505E85F" Ref="D75"  Part="1" 
+AR Path="/65503ECD/6505E85F" Ref="D203"  Part="1" 
+AR Path="/65503F83/6505E85F" Ref="D331"  Part="1" 
+F 0 "D75" H 7250 3843 50  0000 C CNN
+F 1 "LED_Small" H 7250 3844 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 7250 3700 50  0001 C CNN
+F 3 "~" V 7250 3700 50  0001 C CNN
+	1    7250 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D83
+U 1 1 6505E869
+P 7550 3700
+AR Path="/64FB7FC8/6505E869" Ref="D83"  Part="1" 
+AR Path="/65503ECD/6505E869" Ref="D211"  Part="1" 
+AR Path="/65503F83/6505E869" Ref="D339"  Part="1" 
+F 0 "D83" H 7550 3843 50  0000 C CNN
+F 1 "LED_Small" H 7550 3844 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 7550 3700 50  0001 C CNN
+F 3 "~" V 7550 3700 50  0001 C CNN
+	1    7550 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D91
+U 1 1 6505E873
+P 7850 3700
+AR Path="/64FB7FC8/6505E873" Ref="D91"  Part="1" 
+AR Path="/65503ECD/6505E873" Ref="D219"  Part="1" 
+AR Path="/65503F83/6505E873" Ref="D347"  Part="1" 
+F 0 "D91" H 7850 3843 50  0000 C CNN
+F 1 "LED_Small" H 7850 3844 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 7850 3700 50  0001 C CNN
+F 3 "~" V 7850 3700 50  0001 C CNN
+	1    7850 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D99
+U 1 1 6505E87D
+P 8150 3700
+AR Path="/64FB7FC8/6505E87D" Ref="D99"  Part="1" 
+AR Path="/65503ECD/6505E87D" Ref="D227"  Part="1" 
+AR Path="/65503F83/6505E87D" Ref="D355"  Part="1" 
+F 0 "D99" H 8150 3843 50  0000 C CNN
+F 1 "LED_Small" H 8150 3844 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 8150 3700 50  0001 C CNN
+F 3 "~" V 8150 3700 50  0001 C CNN
+	1    8150 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D107
+U 1 1 6505E887
+P 8450 3700
+AR Path="/64FB7FC8/6505E887" Ref="D107"  Part="1" 
+AR Path="/65503ECD/6505E887" Ref="D235"  Part="1" 
+AR Path="/65503F83/6505E887" Ref="D363"  Part="1" 
+F 0 "D107" H 8450 3843 50  0000 C CNN
+F 1 "LED_Small" H 8450 3844 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 8450 3700 50  0001 C CNN
+F 3 "~" V 8450 3700 50  0001 C CNN
+	1    8450 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D115
+U 1 1 6505E891
+P 8750 3700
+AR Path="/64FB7FC8/6505E891" Ref="D115"  Part="1" 
+AR Path="/65503ECD/6505E891" Ref="D243"  Part="1" 
+AR Path="/65503F83/6505E891" Ref="D371"  Part="1" 
+F 0 "D115" H 8750 3843 50  0000 C CNN
+F 1 "LED_Small" H 8750 3844 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 8750 3700 50  0001 C CNN
+F 3 "~" V 8750 3700 50  0001 C CNN
+	1    8750 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D123
+U 1 1 6505E89B
+P 9050 3700
+AR Path="/64FB7FC8/6505E89B" Ref="D123"  Part="1" 
+AR Path="/65503ECD/6505E89B" Ref="D251"  Part="1" 
+AR Path="/65503F83/6505E89B" Ref="D379"  Part="1" 
+F 0 "D123" H 9050 3843 50  0000 C CNN
+F 1 "LED_Small" H 9050 3844 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 9050 3700 50  0001 C CNN
+F 3 "~" V 9050 3700 50  0001 C CNN
+	1    9050 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 3400 4450 3700
+Wire Wire Line
+	4750 3400 4750 3700
+Wire Wire Line
+	5050 3400 5050 3700
+Wire Wire Line
+	5350 3400 5350 3700
+Wire Wire Line
+	5650 3400 5650 3700
+Wire Wire Line
+	5950 3400 5950 3700
+Wire Wire Line
+	6250 3400 6250 3700
+Wire Wire Line
+	6550 3400 6550 3700
+Wire Wire Line
+	6850 3400 6850 3700
+Wire Wire Line
+	7150 3400 7150 3700
+Wire Wire Line
+	7450 3400 7450 3700
+Wire Wire Line
+	7750 3400 7750 3700
+Wire Wire Line
+	8050 3400 8050 3700
+Wire Wire Line
+	8350 3400 8350 3700
+Wire Wire Line
+	8650 3400 8650 3700
+Wire Wire Line
+	8950 3400 8950 3700
+Wire Wire Line
+	4350 3500 4650 3500
+Wire Wire Line
+	9150 3500 9150 3700
+Wire Wire Line
+	8850 3500 8850 3700
+Connection ~ 8850 3500
+Wire Wire Line
+	8850 3500 9150 3500
+Wire Wire Line
+	8550 3500 8550 3700
+Connection ~ 8550 3500
+Wire Wire Line
+	8550 3500 8850 3500
+Wire Wire Line
+	8250 3500 8250 3700
+Connection ~ 8250 3500
+Wire Wire Line
+	8250 3500 8550 3500
+Wire Wire Line
+	7950 3500 7950 3700
+Connection ~ 7950 3500
+Wire Wire Line
+	7950 3500 8250 3500
+Wire Wire Line
+	7650 3500 7650 3700
+Connection ~ 7650 3500
+Wire Wire Line
+	7650 3500 7950 3500
+Wire Wire Line
+	7350 3500 7350 3700
+Connection ~ 7350 3500
+Wire Wire Line
+	7350 3500 7650 3500
+Wire Wire Line
+	7050 3500 7050 3700
+Connection ~ 7050 3500
+Wire Wire Line
+	7050 3500 7350 3500
+Wire Wire Line
+	6750 3500 6750 3700
+Connection ~ 6750 3500
+Wire Wire Line
+	6750 3500 7050 3500
+Wire Wire Line
+	6450 3500 6450 3700
+Connection ~ 6450 3500
+Wire Wire Line
+	6450 3500 6750 3500
+Wire Wire Line
+	6150 3500 6150 3700
+Connection ~ 6150 3500
+Wire Wire Line
+	6150 3500 6450 3500
+Wire Wire Line
+	5850 3500 5850 3700
+Connection ~ 5850 3500
+Wire Wire Line
+	5850 3500 6150 3500
+Wire Wire Line
+	5550 3500 5550 3700
+Connection ~ 5550 3500
+Wire Wire Line
+	5550 3500 5850 3500
+Wire Wire Line
+	5250 3500 5250 3700
+Connection ~ 5250 3500
+Wire Wire Line
+	5250 3500 5550 3500
+Wire Wire Line
+	4950 3500 4950 3700
+Connection ~ 4950 3500
+Wire Wire Line
+	4950 3500 5250 3500
+Wire Wire Line
+	4650 3500 4650 3700
+Connection ~ 4650 3500
+Wire Wire Line
+	4650 3500 4950 3500
+$Comp
+L Device:LED_Small D4
+U 1 1 6505E8E4
+P 4550 4000
+AR Path="/64FB7FC8/6505E8E4" Ref="D4"  Part="1" 
+AR Path="/65503ECD/6505E8E4" Ref="D132"  Part="1" 
+AR Path="/65503F83/6505E8E4" Ref="D260"  Part="1" 
+F 0 "D4" H 4550 4143 50  0000 C CNN
+F 1 "LED_Small" H 4550 4144 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 4550 4000 50  0001 C CNN
+F 3 "~" V 4550 4000 50  0001 C CNN
+	1    4550 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D12
+U 1 1 6505E8EE
+P 4850 4000
+AR Path="/64FB7FC8/6505E8EE" Ref="D12"  Part="1" 
+AR Path="/65503ECD/6505E8EE" Ref="D140"  Part="1" 
+AR Path="/65503F83/6505E8EE" Ref="D268"  Part="1" 
+F 0 "D12" H 4850 4143 50  0000 C CNN
+F 1 "LED_Small" H 4850 4144 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 4850 4000 50  0001 C CNN
+F 3 "~" V 4850 4000 50  0001 C CNN
+	1    4850 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D20
+U 1 1 6505E8F8
+P 5150 4000
+AR Path="/64FB7FC8/6505E8F8" Ref="D20"  Part="1" 
+AR Path="/65503ECD/6505E8F8" Ref="D148"  Part="1" 
+AR Path="/65503F83/6505E8F8" Ref="D276"  Part="1" 
+F 0 "D20" H 5150 4143 50  0000 C CNN
+F 1 "LED_Small" H 5150 4144 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 5150 4000 50  0001 C CNN
+F 3 "~" V 5150 4000 50  0001 C CNN
+	1    5150 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D28
+U 1 1 6505E902
+P 5450 4000
+AR Path="/64FB7FC8/6505E902" Ref="D28"  Part="1" 
+AR Path="/65503ECD/6505E902" Ref="D156"  Part="1" 
+AR Path="/65503F83/6505E902" Ref="D284"  Part="1" 
+F 0 "D28" H 5450 4143 50  0000 C CNN
+F 1 "LED_Small" H 5450 4144 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 5450 4000 50  0001 C CNN
+F 3 "~" V 5450 4000 50  0001 C CNN
+	1    5450 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D36
+U 1 1 6505E90C
+P 5750 4000
+AR Path="/64FB7FC8/6505E90C" Ref="D36"  Part="1" 
+AR Path="/65503ECD/6505E90C" Ref="D164"  Part="1" 
+AR Path="/65503F83/6505E90C" Ref="D292"  Part="1" 
+F 0 "D36" H 5750 4143 50  0000 C CNN
+F 1 "LED_Small" H 5750 4144 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 5750 4000 50  0001 C CNN
+F 3 "~" V 5750 4000 50  0001 C CNN
+	1    5750 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D44
+U 1 1 6505E916
+P 6050 4000
+AR Path="/64FB7FC8/6505E916" Ref="D44"  Part="1" 
+AR Path="/65503ECD/6505E916" Ref="D172"  Part="1" 
+AR Path="/65503F83/6505E916" Ref="D300"  Part="1" 
+F 0 "D44" H 6050 4143 50  0000 C CNN
+F 1 "LED_Small" H 6050 4144 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 6050 4000 50  0001 C CNN
+F 3 "~" V 6050 4000 50  0001 C CNN
+	1    6050 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D52
+U 1 1 6505E920
+P 6350 4000
+AR Path="/64FB7FC8/6505E920" Ref="D52"  Part="1" 
+AR Path="/65503ECD/6505E920" Ref="D180"  Part="1" 
+AR Path="/65503F83/6505E920" Ref="D308"  Part="1" 
+F 0 "D52" H 6350 4143 50  0000 C CNN
+F 1 "LED_Small" H 6350 4144 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 6350 4000 50  0001 C CNN
+F 3 "~" V 6350 4000 50  0001 C CNN
+	1    6350 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D60
+U 1 1 6505E92A
+P 6650 4000
+AR Path="/64FB7FC8/6505E92A" Ref="D60"  Part="1" 
+AR Path="/65503ECD/6505E92A" Ref="D188"  Part="1" 
+AR Path="/65503F83/6505E92A" Ref="D316"  Part="1" 
+F 0 "D60" H 6650 4143 50  0000 C CNN
+F 1 "LED_Small" H 6650 4144 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 6650 4000 50  0001 C CNN
+F 3 "~" V 6650 4000 50  0001 C CNN
+	1    6650 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D68
+U 1 1 6505E934
+P 6950 4000
+AR Path="/64FB7FC8/6505E934" Ref="D68"  Part="1" 
+AR Path="/65503ECD/6505E934" Ref="D196"  Part="1" 
+AR Path="/65503F83/6505E934" Ref="D324"  Part="1" 
+F 0 "D68" H 6950 4143 50  0000 C CNN
+F 1 "LED_Small" H 6950 4144 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 6950 4000 50  0001 C CNN
+F 3 "~" V 6950 4000 50  0001 C CNN
+	1    6950 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D76
+U 1 1 6505E93E
+P 7250 4000
+AR Path="/64FB7FC8/6505E93E" Ref="D76"  Part="1" 
+AR Path="/65503ECD/6505E93E" Ref="D204"  Part="1" 
+AR Path="/65503F83/6505E93E" Ref="D332"  Part="1" 
+F 0 "D76" H 7250 4143 50  0000 C CNN
+F 1 "LED_Small" H 7250 4144 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 7250 4000 50  0001 C CNN
+F 3 "~" V 7250 4000 50  0001 C CNN
+	1    7250 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D84
+U 1 1 6505E948
+P 7550 4000
+AR Path="/64FB7FC8/6505E948" Ref="D84"  Part="1" 
+AR Path="/65503ECD/6505E948" Ref="D212"  Part="1" 
+AR Path="/65503F83/6505E948" Ref="D340"  Part="1" 
+F 0 "D84" H 7550 4143 50  0000 C CNN
+F 1 "LED_Small" H 7550 4144 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 7550 4000 50  0001 C CNN
+F 3 "~" V 7550 4000 50  0001 C CNN
+	1    7550 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D92
+U 1 1 6505E952
+P 7850 4000
+AR Path="/64FB7FC8/6505E952" Ref="D92"  Part="1" 
+AR Path="/65503ECD/6505E952" Ref="D220"  Part="1" 
+AR Path="/65503F83/6505E952" Ref="D348"  Part="1" 
+F 0 "D92" H 7850 4143 50  0000 C CNN
+F 1 "LED_Small" H 7850 4144 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 7850 4000 50  0001 C CNN
+F 3 "~" V 7850 4000 50  0001 C CNN
+	1    7850 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D100
+U 1 1 6505E95C
+P 8150 4000
+AR Path="/64FB7FC8/6505E95C" Ref="D100"  Part="1" 
+AR Path="/65503ECD/6505E95C" Ref="D228"  Part="1" 
+AR Path="/65503F83/6505E95C" Ref="D356"  Part="1" 
+F 0 "D100" H 8150 4143 50  0000 C CNN
+F 1 "LED_Small" H 8150 4144 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 8150 4000 50  0001 C CNN
+F 3 "~" V 8150 4000 50  0001 C CNN
+	1    8150 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D108
+U 1 1 6505E966
+P 8450 4000
+AR Path="/64FB7FC8/6505E966" Ref="D108"  Part="1" 
+AR Path="/65503ECD/6505E966" Ref="D236"  Part="1" 
+AR Path="/65503F83/6505E966" Ref="D364"  Part="1" 
+F 0 "D108" H 8450 4143 50  0000 C CNN
+F 1 "LED_Small" H 8450 4144 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 8450 4000 50  0001 C CNN
+F 3 "~" V 8450 4000 50  0001 C CNN
+	1    8450 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D116
+U 1 1 6505E970
+P 8750 4000
+AR Path="/64FB7FC8/6505E970" Ref="D116"  Part="1" 
+AR Path="/65503ECD/6505E970" Ref="D244"  Part="1" 
+AR Path="/65503F83/6505E970" Ref="D372"  Part="1" 
+F 0 "D116" H 8750 4143 50  0000 C CNN
+F 1 "LED_Small" H 8750 4144 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 8750 4000 50  0001 C CNN
+F 3 "~" V 8750 4000 50  0001 C CNN
+	1    8750 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D124
+U 1 1 6505E97A
+P 9050 4000
+AR Path="/64FB7FC8/6505E97A" Ref="D124"  Part="1" 
+AR Path="/65503ECD/6505E97A" Ref="D252"  Part="1" 
+AR Path="/65503F83/6505E97A" Ref="D380"  Part="1" 
+F 0 "D124" H 9050 4143 50  0000 C CNN
+F 1 "LED_Small" H 9050 4144 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 9050 4000 50  0001 C CNN
+F 3 "~" V 9050 4000 50  0001 C CNN
+	1    9050 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 3700 4450 4000
+Wire Wire Line
+	4750 3700 4750 4000
+Wire Wire Line
+	5050 3700 5050 4000
+Wire Wire Line
+	5350 3700 5350 4000
+Wire Wire Line
+	5650 3700 5650 4000
+Wire Wire Line
+	5950 3700 5950 4000
+Wire Wire Line
+	6250 3700 6250 4000
+Wire Wire Line
+	6550 3700 6550 4000
+Wire Wire Line
+	6850 3700 6850 4000
+Wire Wire Line
+	7150 3700 7150 4000
+Wire Wire Line
+	7450 3700 7450 4000
+Wire Wire Line
+	7750 3700 7750 4000
+Wire Wire Line
+	8050 3700 8050 4000
+Wire Wire Line
+	8350 3700 8350 4000
+Wire Wire Line
+	8650 3700 8650 4000
+Wire Wire Line
+	8950 3700 8950 4000
+Wire Wire Line
+	4350 3800 4650 3800
+Wire Wire Line
+	9150 3800 9150 4000
+Wire Wire Line
+	8850 3800 8850 4000
+Connection ~ 8850 3800
+Wire Wire Line
+	8850 3800 9150 3800
+Wire Wire Line
+	8550 3800 8550 4000
+Connection ~ 8550 3800
+Wire Wire Line
+	8550 3800 8850 3800
+Wire Wire Line
+	8250 3800 8250 4000
+Connection ~ 8250 3800
+Wire Wire Line
+	8250 3800 8550 3800
+Wire Wire Line
+	7950 3800 7950 4000
+Connection ~ 7950 3800
+Wire Wire Line
+	7950 3800 8250 3800
+Wire Wire Line
+	7650 3800 7650 4000
+Connection ~ 7650 3800
+Wire Wire Line
+	7650 3800 7950 3800
+Wire Wire Line
+	7350 3800 7350 4000
+Connection ~ 7350 3800
+Wire Wire Line
+	7350 3800 7650 3800
+Wire Wire Line
+	7050 3800 7050 4000
+Connection ~ 7050 3800
+Wire Wire Line
+	7050 3800 7350 3800
+Wire Wire Line
+	6750 3800 6750 4000
+Connection ~ 6750 3800
+Wire Wire Line
+	6750 3800 7050 3800
+Wire Wire Line
+	6450 3800 6450 4000
+Connection ~ 6450 3800
+Wire Wire Line
+	6450 3800 6750 3800
+Wire Wire Line
+	6150 3800 6150 4000
+Connection ~ 6150 3800
+Wire Wire Line
+	6150 3800 6450 3800
+Wire Wire Line
+	5850 3800 5850 4000
+Connection ~ 5850 3800
+Wire Wire Line
+	5850 3800 6150 3800
+Wire Wire Line
+	5550 3800 5550 4000
+Connection ~ 5550 3800
+Wire Wire Line
+	5550 3800 5850 3800
+Wire Wire Line
+	5250 3800 5250 4000
+Connection ~ 5250 3800
+Wire Wire Line
+	5250 3800 5550 3800
+Wire Wire Line
+	4950 3800 4950 4000
+Connection ~ 4950 3800
+Wire Wire Line
+	4950 3800 5250 3800
+Wire Wire Line
+	4650 3800 4650 4000
+Connection ~ 4650 3800
+Wire Wire Line
+	4650 3800 4950 3800
+Connection ~ 4450 3700
+Connection ~ 4750 3700
+Connection ~ 5050 3700
+Connection ~ 5350 3700
+Connection ~ 5650 3700
+Connection ~ 5950 3700
+Connection ~ 6250 3700
+Connection ~ 6550 3700
+Connection ~ 6850 3700
+Connection ~ 7150 3700
+Connection ~ 7450 3700
+Connection ~ 7750 3700
+Connection ~ 8050 3700
+Connection ~ 8350 3700
+Connection ~ 8650 3700
+Connection ~ 8950 3700
+Connection ~ 4450 3400
+Connection ~ 4750 3400
+Connection ~ 5050 3400
+Connection ~ 5350 3400
+Connection ~ 5650 3400
+Connection ~ 5950 3400
+Connection ~ 6250 3400
+Connection ~ 6550 3400
+Connection ~ 6850 3400
+Connection ~ 7150 3400
+Connection ~ 7450 3400
+Connection ~ 7750 3400
+Connection ~ 8050 3400
+Connection ~ 8350 3400
+Connection ~ 8650 3400
+Connection ~ 8950 3400
+$Comp
+L Device:LED_Small D5
+U 1 1 6507C73B
+P 4550 4300
+AR Path="/64FB7FC8/6507C73B" Ref="D5"  Part="1" 
+AR Path="/65503ECD/6507C73B" Ref="D133"  Part="1" 
+AR Path="/65503F83/6507C73B" Ref="D261"  Part="1" 
+F 0 "D5" H 4550 4443 50  0000 C CNN
+F 1 "LED_Small" H 4550 4444 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 4550 4300 50  0001 C CNN
+F 3 "~" V 4550 4300 50  0001 C CNN
+	1    4550 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D13
+U 1 1 6507CD9D
+P 4850 4300
+AR Path="/64FB7FC8/6507CD9D" Ref="D13"  Part="1" 
+AR Path="/65503ECD/6507CD9D" Ref="D141"  Part="1" 
+AR Path="/65503F83/6507CD9D" Ref="D269"  Part="1" 
+F 0 "D13" H 4850 4443 50  0000 C CNN
+F 1 "LED_Small" H 4850 4444 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 4850 4300 50  0001 C CNN
+F 3 "~" V 4850 4300 50  0001 C CNN
+	1    4850 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D21
+U 1 1 6507CDA7
+P 5150 4300
+AR Path="/64FB7FC8/6507CDA7" Ref="D21"  Part="1" 
+AR Path="/65503ECD/6507CDA7" Ref="D149"  Part="1" 
+AR Path="/65503F83/6507CDA7" Ref="D277"  Part="1" 
+F 0 "D21" H 5150 4443 50  0000 C CNN
+F 1 "LED_Small" H 5150 4444 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 5150 4300 50  0001 C CNN
+F 3 "~" V 5150 4300 50  0001 C CNN
+	1    5150 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D29
+U 1 1 6507CDB1
+P 5450 4300
+AR Path="/64FB7FC8/6507CDB1" Ref="D29"  Part="1" 
+AR Path="/65503ECD/6507CDB1" Ref="D157"  Part="1" 
+AR Path="/65503F83/6507CDB1" Ref="D285"  Part="1" 
+F 0 "D29" H 5450 4443 50  0000 C CNN
+F 1 "LED_Small" H 5450 4444 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 5450 4300 50  0001 C CNN
+F 3 "~" V 5450 4300 50  0001 C CNN
+	1    5450 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D37
+U 1 1 6507CDBB
+P 5750 4300
+AR Path="/64FB7FC8/6507CDBB" Ref="D37"  Part="1" 
+AR Path="/65503ECD/6507CDBB" Ref="D165"  Part="1" 
+AR Path="/65503F83/6507CDBB" Ref="D293"  Part="1" 
+F 0 "D37" H 5750 4443 50  0000 C CNN
+F 1 "LED_Small" H 5750 4444 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 5750 4300 50  0001 C CNN
+F 3 "~" V 5750 4300 50  0001 C CNN
+	1    5750 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D45
+U 1 1 6507CDC5
+P 6050 4300
+AR Path="/64FB7FC8/6507CDC5" Ref="D45"  Part="1" 
+AR Path="/65503ECD/6507CDC5" Ref="D173"  Part="1" 
+AR Path="/65503F83/6507CDC5" Ref="D301"  Part="1" 
+F 0 "D45" H 6050 4443 50  0000 C CNN
+F 1 "LED_Small" H 6050 4444 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 6050 4300 50  0001 C CNN
+F 3 "~" V 6050 4300 50  0001 C CNN
+	1    6050 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D53
+U 1 1 6507CDCF
+P 6350 4300
+AR Path="/64FB7FC8/6507CDCF" Ref="D53"  Part="1" 
+AR Path="/65503ECD/6507CDCF" Ref="D181"  Part="1" 
+AR Path="/65503F83/6507CDCF" Ref="D309"  Part="1" 
+F 0 "D53" H 6350 4443 50  0000 C CNN
+F 1 "LED_Small" H 6350 4444 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 6350 4300 50  0001 C CNN
+F 3 "~" V 6350 4300 50  0001 C CNN
+	1    6350 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D61
+U 1 1 6507CDD9
+P 6650 4300
+AR Path="/64FB7FC8/6507CDD9" Ref="D61"  Part="1" 
+AR Path="/65503ECD/6507CDD9" Ref="D189"  Part="1" 
+AR Path="/65503F83/6507CDD9" Ref="D317"  Part="1" 
+F 0 "D61" H 6650 4443 50  0000 C CNN
+F 1 "LED_Small" H 6650 4444 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 6650 4300 50  0001 C CNN
+F 3 "~" V 6650 4300 50  0001 C CNN
+	1    6650 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D69
+U 1 1 6507CDE3
+P 6950 4300
+AR Path="/64FB7FC8/6507CDE3" Ref="D69"  Part="1" 
+AR Path="/65503ECD/6507CDE3" Ref="D197"  Part="1" 
+AR Path="/65503F83/6507CDE3" Ref="D325"  Part="1" 
+F 0 "D69" H 6950 4443 50  0000 C CNN
+F 1 "LED_Small" H 6950 4444 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 6950 4300 50  0001 C CNN
+F 3 "~" V 6950 4300 50  0001 C CNN
+	1    6950 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D77
+U 1 1 6507CDED
+P 7250 4300
+AR Path="/64FB7FC8/6507CDED" Ref="D77"  Part="1" 
+AR Path="/65503ECD/6507CDED" Ref="D205"  Part="1" 
+AR Path="/65503F83/6507CDED" Ref="D333"  Part="1" 
+F 0 "D77" H 7250 4443 50  0000 C CNN
+F 1 "LED_Small" H 7250 4444 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 7250 4300 50  0001 C CNN
+F 3 "~" V 7250 4300 50  0001 C CNN
+	1    7250 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D85
+U 1 1 6507CDF7
+P 7550 4300
+AR Path="/64FB7FC8/6507CDF7" Ref="D85"  Part="1" 
+AR Path="/65503ECD/6507CDF7" Ref="D213"  Part="1" 
+AR Path="/65503F83/6507CDF7" Ref="D341"  Part="1" 
+F 0 "D85" H 7550 4443 50  0000 C CNN
+F 1 "LED_Small" H 7550 4444 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 7550 4300 50  0001 C CNN
+F 3 "~" V 7550 4300 50  0001 C CNN
+	1    7550 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D93
+U 1 1 6507CE01
+P 7850 4300
+AR Path="/64FB7FC8/6507CE01" Ref="D93"  Part="1" 
+AR Path="/65503ECD/6507CE01" Ref="D221"  Part="1" 
+AR Path="/65503F83/6507CE01" Ref="D349"  Part="1" 
+F 0 "D93" H 7850 4443 50  0000 C CNN
+F 1 "LED_Small" H 7850 4444 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 7850 4300 50  0001 C CNN
+F 3 "~" V 7850 4300 50  0001 C CNN
+	1    7850 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D101
+U 1 1 6507CE0B
+P 8150 4300
+AR Path="/64FB7FC8/6507CE0B" Ref="D101"  Part="1" 
+AR Path="/65503ECD/6507CE0B" Ref="D229"  Part="1" 
+AR Path="/65503F83/6507CE0B" Ref="D357"  Part="1" 
+F 0 "D101" H 8150 4443 50  0000 C CNN
+F 1 "LED_Small" H 8150 4444 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 8150 4300 50  0001 C CNN
+F 3 "~" V 8150 4300 50  0001 C CNN
+	1    8150 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D109
+U 1 1 6507CE15
+P 8450 4300
+AR Path="/64FB7FC8/6507CE15" Ref="D109"  Part="1" 
+AR Path="/65503ECD/6507CE15" Ref="D237"  Part="1" 
+AR Path="/65503F83/6507CE15" Ref="D365"  Part="1" 
+F 0 "D109" H 8450 4443 50  0000 C CNN
+F 1 "LED_Small" H 8450 4444 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 8450 4300 50  0001 C CNN
+F 3 "~" V 8450 4300 50  0001 C CNN
+	1    8450 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D117
+U 1 1 6507CE1F
+P 8750 4300
+AR Path="/64FB7FC8/6507CE1F" Ref="D117"  Part="1" 
+AR Path="/65503ECD/6507CE1F" Ref="D245"  Part="1" 
+AR Path="/65503F83/6507CE1F" Ref="D373"  Part="1" 
+F 0 "D117" H 8750 4443 50  0000 C CNN
+F 1 "LED_Small" H 8750 4444 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 8750 4300 50  0001 C CNN
+F 3 "~" V 8750 4300 50  0001 C CNN
+	1    8750 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D125
+U 1 1 6507CE29
+P 9050 4300
+AR Path="/64FB7FC8/6507CE29" Ref="D125"  Part="1" 
+AR Path="/65503ECD/6507CE29" Ref="D253"  Part="1" 
+AR Path="/65503F83/6507CE29" Ref="D381"  Part="1" 
+F 0 "D125" H 9050 4443 50  0000 C CNN
+F 1 "LED_Small" H 9050 4444 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 9050 4300 50  0001 C CNN
+F 3 "~" V 9050 4300 50  0001 C CNN
+	1    9050 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 4000 4450 4300
+Wire Wire Line
+	4750 4000 4750 4300
+Wire Wire Line
+	5050 4000 5050 4300
+Wire Wire Line
+	5350 4000 5350 4300
+Wire Wire Line
+	5650 4000 5650 4300
+Wire Wire Line
+	5950 4000 5950 4300
+Wire Wire Line
+	6250 4000 6250 4300
+Wire Wire Line
+	6550 4000 6550 4300
+Wire Wire Line
+	6850 4000 6850 4300
+Wire Wire Line
+	7150 4000 7150 4300
+Wire Wire Line
+	7450 4000 7450 4300
+Wire Wire Line
+	7750 4000 7750 4300
+Wire Wire Line
+	8050 4000 8050 4300
+Wire Wire Line
+	8350 4000 8350 4300
+Wire Wire Line
+	8650 4000 8650 4300
+Wire Wire Line
+	8950 4000 8950 4300
+Wire Wire Line
+	4350 4100 4650 4100
+Wire Wire Line
+	9150 4100 9150 4300
+Wire Wire Line
+	8850 4100 8850 4300
+Connection ~ 8850 4100
+Wire Wire Line
+	8850 4100 9150 4100
+Wire Wire Line
+	8550 4100 8550 4300
+Connection ~ 8550 4100
+Wire Wire Line
+	8550 4100 8850 4100
+Wire Wire Line
+	8250 4100 8250 4300
+Connection ~ 8250 4100
+Wire Wire Line
+	8250 4100 8550 4100
+Wire Wire Line
+	7950 4100 7950 4300
+Connection ~ 7950 4100
+Wire Wire Line
+	7950 4100 8250 4100
+Wire Wire Line
+	7650 4100 7650 4300
+Connection ~ 7650 4100
+Wire Wire Line
+	7650 4100 7950 4100
+Wire Wire Line
+	7350 4100 7350 4300
+Connection ~ 7350 4100
+Wire Wire Line
+	7350 4100 7650 4100
+Wire Wire Line
+	7050 4100 7050 4300
+Connection ~ 7050 4100
+Wire Wire Line
+	7050 4100 7350 4100
+Wire Wire Line
+	6750 4100 6750 4300
+Connection ~ 6750 4100
+Wire Wire Line
+	6750 4100 7050 4100
+Wire Wire Line
+	6450 4100 6450 4300
+Connection ~ 6450 4100
+Wire Wire Line
+	6450 4100 6750 4100
+Wire Wire Line
+	6150 4100 6150 4300
+Connection ~ 6150 4100
+Wire Wire Line
+	6150 4100 6450 4100
+Wire Wire Line
+	5850 4100 5850 4300
+Connection ~ 5850 4100
+Wire Wire Line
+	5850 4100 6150 4100
+Wire Wire Line
+	5550 4100 5550 4300
+Connection ~ 5550 4100
+Wire Wire Line
+	5550 4100 5850 4100
+Wire Wire Line
+	5250 4100 5250 4300
+Connection ~ 5250 4100
+Wire Wire Line
+	5250 4100 5550 4100
+Wire Wire Line
+	4950 4100 4950 4300
+Connection ~ 4950 4100
+Wire Wire Line
+	4950 4100 5250 4100
+Wire Wire Line
+	4650 4100 4650 4300
+Connection ~ 4650 4100
+Wire Wire Line
+	4650 4100 4950 4100
+$Comp
+L Device:LED_Small D6
+U 1 1 6507CE72
+P 4550 4600
+AR Path="/64FB7FC8/6507CE72" Ref="D6"  Part="1" 
+AR Path="/65503ECD/6507CE72" Ref="D134"  Part="1" 
+AR Path="/65503F83/6507CE72" Ref="D262"  Part="1" 
+F 0 "D6" H 4550 4743 50  0000 C CNN
+F 1 "LED_Small" H 4550 4744 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 4550 4600 50  0001 C CNN
+F 3 "~" V 4550 4600 50  0001 C CNN
+	1    4550 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D14
+U 1 1 6507CE7C
+P 4850 4600
+AR Path="/64FB7FC8/6507CE7C" Ref="D14"  Part="1" 
+AR Path="/65503ECD/6507CE7C" Ref="D142"  Part="1" 
+AR Path="/65503F83/6507CE7C" Ref="D270"  Part="1" 
+F 0 "D14" H 4850 4743 50  0000 C CNN
+F 1 "LED_Small" H 4850 4744 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 4850 4600 50  0001 C CNN
+F 3 "~" V 4850 4600 50  0001 C CNN
+	1    4850 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D22
+U 1 1 6507CE86
+P 5150 4600
+AR Path="/64FB7FC8/6507CE86" Ref="D22"  Part="1" 
+AR Path="/65503ECD/6507CE86" Ref="D150"  Part="1" 
+AR Path="/65503F83/6507CE86" Ref="D278"  Part="1" 
+F 0 "D22" H 5150 4743 50  0000 C CNN
+F 1 "LED_Small" H 5150 4744 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 5150 4600 50  0001 C CNN
+F 3 "~" V 5150 4600 50  0001 C CNN
+	1    5150 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D30
+U 1 1 6507CE90
+P 5450 4600
+AR Path="/64FB7FC8/6507CE90" Ref="D30"  Part="1" 
+AR Path="/65503ECD/6507CE90" Ref="D158"  Part="1" 
+AR Path="/65503F83/6507CE90" Ref="D286"  Part="1" 
+F 0 "D30" H 5450 4743 50  0000 C CNN
+F 1 "LED_Small" H 5450 4744 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 5450 4600 50  0001 C CNN
+F 3 "~" V 5450 4600 50  0001 C CNN
+	1    5450 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D38
+U 1 1 6507CE9A
+P 5750 4600
+AR Path="/64FB7FC8/6507CE9A" Ref="D38"  Part="1" 
+AR Path="/65503ECD/6507CE9A" Ref="D166"  Part="1" 
+AR Path="/65503F83/6507CE9A" Ref="D294"  Part="1" 
+F 0 "D38" H 5750 4743 50  0000 C CNN
+F 1 "LED_Small" H 5750 4744 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 5750 4600 50  0001 C CNN
+F 3 "~" V 5750 4600 50  0001 C CNN
+	1    5750 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D46
+U 1 1 6507CEA4
+P 6050 4600
+AR Path="/64FB7FC8/6507CEA4" Ref="D46"  Part="1" 
+AR Path="/65503ECD/6507CEA4" Ref="D174"  Part="1" 
+AR Path="/65503F83/6507CEA4" Ref="D302"  Part="1" 
+F 0 "D46" H 6050 4743 50  0000 C CNN
+F 1 "LED_Small" H 6050 4744 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 6050 4600 50  0001 C CNN
+F 3 "~" V 6050 4600 50  0001 C CNN
+	1    6050 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D54
+U 1 1 6507CEAE
+P 6350 4600
+AR Path="/64FB7FC8/6507CEAE" Ref="D54"  Part="1" 
+AR Path="/65503ECD/6507CEAE" Ref="D182"  Part="1" 
+AR Path="/65503F83/6507CEAE" Ref="D310"  Part="1" 
+F 0 "D54" H 6350 4743 50  0000 C CNN
+F 1 "LED_Small" H 6350 4744 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 6350 4600 50  0001 C CNN
+F 3 "~" V 6350 4600 50  0001 C CNN
+	1    6350 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D62
+U 1 1 6507CEB8
+P 6650 4600
+AR Path="/64FB7FC8/6507CEB8" Ref="D62"  Part="1" 
+AR Path="/65503ECD/6507CEB8" Ref="D190"  Part="1" 
+AR Path="/65503F83/6507CEB8" Ref="D318"  Part="1" 
+F 0 "D62" H 6650 4743 50  0000 C CNN
+F 1 "LED_Small" H 6650 4744 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 6650 4600 50  0001 C CNN
+F 3 "~" V 6650 4600 50  0001 C CNN
+	1    6650 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D70
+U 1 1 6507CEC2
+P 6950 4600
+AR Path="/64FB7FC8/6507CEC2" Ref="D70"  Part="1" 
+AR Path="/65503ECD/6507CEC2" Ref="D198"  Part="1" 
+AR Path="/65503F83/6507CEC2" Ref="D326"  Part="1" 
+F 0 "D70" H 6950 4743 50  0000 C CNN
+F 1 "LED_Small" H 6950 4744 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 6950 4600 50  0001 C CNN
+F 3 "~" V 6950 4600 50  0001 C CNN
+	1    6950 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D78
+U 1 1 6507CECC
+P 7250 4600
+AR Path="/64FB7FC8/6507CECC" Ref="D78"  Part="1" 
+AR Path="/65503ECD/6507CECC" Ref="D206"  Part="1" 
+AR Path="/65503F83/6507CECC" Ref="D334"  Part="1" 
+F 0 "D78" H 7250 4743 50  0000 C CNN
+F 1 "LED_Small" H 7250 4744 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 7250 4600 50  0001 C CNN
+F 3 "~" V 7250 4600 50  0001 C CNN
+	1    7250 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D86
+U 1 1 6507CED6
+P 7550 4600
+AR Path="/64FB7FC8/6507CED6" Ref="D86"  Part="1" 
+AR Path="/65503ECD/6507CED6" Ref="D214"  Part="1" 
+AR Path="/65503F83/6507CED6" Ref="D342"  Part="1" 
+F 0 "D86" H 7550 4743 50  0000 C CNN
+F 1 "LED_Small" H 7550 4744 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 7550 4600 50  0001 C CNN
+F 3 "~" V 7550 4600 50  0001 C CNN
+	1    7550 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D94
+U 1 1 6507CEE0
+P 7850 4600
+AR Path="/64FB7FC8/6507CEE0" Ref="D94"  Part="1" 
+AR Path="/65503ECD/6507CEE0" Ref="D222"  Part="1" 
+AR Path="/65503F83/6507CEE0" Ref="D350"  Part="1" 
+F 0 "D94" H 7850 4743 50  0000 C CNN
+F 1 "LED_Small" H 7850 4744 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 7850 4600 50  0001 C CNN
+F 3 "~" V 7850 4600 50  0001 C CNN
+	1    7850 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D102
+U 1 1 6507CEEA
+P 8150 4600
+AR Path="/64FB7FC8/6507CEEA" Ref="D102"  Part="1" 
+AR Path="/65503ECD/6507CEEA" Ref="D230"  Part="1" 
+AR Path="/65503F83/6507CEEA" Ref="D358"  Part="1" 
+F 0 "D102" H 8150 4743 50  0000 C CNN
+F 1 "LED_Small" H 8150 4744 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 8150 4600 50  0001 C CNN
+F 3 "~" V 8150 4600 50  0001 C CNN
+	1    8150 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D110
+U 1 1 6507CEF4
+P 8450 4600
+AR Path="/64FB7FC8/6507CEF4" Ref="D110"  Part="1" 
+AR Path="/65503ECD/6507CEF4" Ref="D238"  Part="1" 
+AR Path="/65503F83/6507CEF4" Ref="D366"  Part="1" 
+F 0 "D110" H 8450 4743 50  0000 C CNN
+F 1 "LED_Small" H 8450 4744 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 8450 4600 50  0001 C CNN
+F 3 "~" V 8450 4600 50  0001 C CNN
+	1    8450 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D118
+U 1 1 6507CEFE
+P 8750 4600
+AR Path="/64FB7FC8/6507CEFE" Ref="D118"  Part="1" 
+AR Path="/65503ECD/6507CEFE" Ref="D246"  Part="1" 
+AR Path="/65503F83/6507CEFE" Ref="D374"  Part="1" 
+F 0 "D118" H 8750 4743 50  0000 C CNN
+F 1 "LED_Small" H 8750 4744 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 8750 4600 50  0001 C CNN
+F 3 "~" V 8750 4600 50  0001 C CNN
+	1    8750 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D126
+U 1 1 6507CF08
+P 9050 4600
+AR Path="/64FB7FC8/6507CF08" Ref="D126"  Part="1" 
+AR Path="/65503ECD/6507CF08" Ref="D254"  Part="1" 
+AR Path="/65503F83/6507CF08" Ref="D382"  Part="1" 
+F 0 "D126" H 9050 4743 50  0000 C CNN
+F 1 "LED_Small" H 9050 4744 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 9050 4600 50  0001 C CNN
+F 3 "~" V 9050 4600 50  0001 C CNN
+	1    9050 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 4300 4450 4600
+Wire Wire Line
+	4750 4300 4750 4600
+Wire Wire Line
+	5050 4300 5050 4600
+Wire Wire Line
+	5350 4300 5350 4600
+Wire Wire Line
+	5650 4300 5650 4600
+Wire Wire Line
+	5950 4300 5950 4600
+Wire Wire Line
+	6250 4300 6250 4600
+Wire Wire Line
+	6550 4300 6550 4600
+Wire Wire Line
+	6850 4300 6850 4600
+Wire Wire Line
+	7150 4300 7150 4600
+Wire Wire Line
+	7450 4300 7450 4600
+Wire Wire Line
+	7750 4300 7750 4600
+Wire Wire Line
+	8050 4300 8050 4600
+Wire Wire Line
+	8350 4300 8350 4600
+Wire Wire Line
+	8650 4300 8650 4600
+Wire Wire Line
+	8950 4300 8950 4600
+Wire Wire Line
+	4350 4400 4650 4400
+Wire Wire Line
+	9150 4400 9150 4600
+Wire Wire Line
+	8850 4400 8850 4600
+Connection ~ 8850 4400
+Wire Wire Line
+	8850 4400 9150 4400
+Wire Wire Line
+	8550 4400 8550 4600
+Connection ~ 8550 4400
+Wire Wire Line
+	8550 4400 8850 4400
+Wire Wire Line
+	8250 4400 8250 4600
+Connection ~ 8250 4400
+Wire Wire Line
+	8250 4400 8550 4400
+Wire Wire Line
+	7950 4400 7950 4600
+Connection ~ 7950 4400
+Wire Wire Line
+	7950 4400 8250 4400
+Wire Wire Line
+	7650 4400 7650 4600
+Connection ~ 7650 4400
+Wire Wire Line
+	7650 4400 7950 4400
+Wire Wire Line
+	7350 4400 7350 4600
+Connection ~ 7350 4400
+Wire Wire Line
+	7350 4400 7650 4400
+Wire Wire Line
+	7050 4400 7050 4600
+Connection ~ 7050 4400
+Wire Wire Line
+	7050 4400 7350 4400
+Wire Wire Line
+	6750 4400 6750 4600
+Connection ~ 6750 4400
+Wire Wire Line
+	6750 4400 7050 4400
+Wire Wire Line
+	6450 4400 6450 4600
+Connection ~ 6450 4400
+Wire Wire Line
+	6450 4400 6750 4400
+Wire Wire Line
+	6150 4400 6150 4600
+Connection ~ 6150 4400
+Wire Wire Line
+	6150 4400 6450 4400
+Wire Wire Line
+	5850 4400 5850 4600
+Connection ~ 5850 4400
+Wire Wire Line
+	5850 4400 6150 4400
+Wire Wire Line
+	5550 4400 5550 4600
+Connection ~ 5550 4400
+Wire Wire Line
+	5550 4400 5850 4400
+Wire Wire Line
+	5250 4400 5250 4600
+Connection ~ 5250 4400
+Wire Wire Line
+	5250 4400 5550 4400
+Wire Wire Line
+	4950 4400 4950 4600
+Connection ~ 4950 4400
+Wire Wire Line
+	4950 4400 5250 4400
+Wire Wire Line
+	4650 4400 4650 4600
+Connection ~ 4650 4400
+Wire Wire Line
+	4650 4400 4950 4400
+Connection ~ 4450 4300
+Connection ~ 4750 4300
+Connection ~ 5050 4300
+Connection ~ 5350 4300
+Connection ~ 5650 4300
+Connection ~ 5950 4300
+Connection ~ 6250 4300
+Connection ~ 6550 4300
+Connection ~ 6850 4300
+Connection ~ 7150 4300
+Connection ~ 7450 4300
+Connection ~ 7750 4300
+Connection ~ 8050 4300
+Connection ~ 8350 4300
+Connection ~ 8650 4300
+Connection ~ 8950 4300
+$Comp
+L Device:LED_Small D7
+U 1 1 6507CF61
+P 4550 4900
+AR Path="/64FB7FC8/6507CF61" Ref="D7"  Part="1" 
+AR Path="/65503ECD/6507CF61" Ref="D135"  Part="1" 
+AR Path="/65503F83/6507CF61" Ref="D263"  Part="1" 
+F 0 "D7" H 4550 5043 50  0000 C CNN
+F 1 "LED_Small" H 4550 5044 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 4550 4900 50  0001 C CNN
+F 3 "~" V 4550 4900 50  0001 C CNN
+	1    4550 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D15
+U 1 1 6507CF6B
+P 4850 4900
+AR Path="/64FB7FC8/6507CF6B" Ref="D15"  Part="1" 
+AR Path="/65503ECD/6507CF6B" Ref="D143"  Part="1" 
+AR Path="/65503F83/6507CF6B" Ref="D271"  Part="1" 
+F 0 "D15" H 4850 5043 50  0000 C CNN
+F 1 "LED_Small" H 4850 5044 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 4850 4900 50  0001 C CNN
+F 3 "~" V 4850 4900 50  0001 C CNN
+	1    4850 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D23
+U 1 1 6507CF75
+P 5150 4900
+AR Path="/64FB7FC8/6507CF75" Ref="D23"  Part="1" 
+AR Path="/65503ECD/6507CF75" Ref="D151"  Part="1" 
+AR Path="/65503F83/6507CF75" Ref="D279"  Part="1" 
+F 0 "D23" H 5150 5043 50  0000 C CNN
+F 1 "LED_Small" H 5150 5044 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 5150 4900 50  0001 C CNN
+F 3 "~" V 5150 4900 50  0001 C CNN
+	1    5150 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D31
+U 1 1 6507CF7F
+P 5450 4900
+AR Path="/64FB7FC8/6507CF7F" Ref="D31"  Part="1" 
+AR Path="/65503ECD/6507CF7F" Ref="D159"  Part="1" 
+AR Path="/65503F83/6507CF7F" Ref="D287"  Part="1" 
+F 0 "D31" H 5450 5043 50  0000 C CNN
+F 1 "LED_Small" H 5450 5044 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 5450 4900 50  0001 C CNN
+F 3 "~" V 5450 4900 50  0001 C CNN
+	1    5450 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D39
+U 1 1 6507CF89
+P 5750 4900
+AR Path="/64FB7FC8/6507CF89" Ref="D39"  Part="1" 
+AR Path="/65503ECD/6507CF89" Ref="D167"  Part="1" 
+AR Path="/65503F83/6507CF89" Ref="D295"  Part="1" 
+F 0 "D39" H 5750 5043 50  0000 C CNN
+F 1 "LED_Small" H 5750 5044 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 5750 4900 50  0001 C CNN
+F 3 "~" V 5750 4900 50  0001 C CNN
+	1    5750 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D47
+U 1 1 6507CF93
+P 6050 4900
+AR Path="/64FB7FC8/6507CF93" Ref="D47"  Part="1" 
+AR Path="/65503ECD/6507CF93" Ref="D175"  Part="1" 
+AR Path="/65503F83/6507CF93" Ref="D303"  Part="1" 
+F 0 "D47" H 6050 5043 50  0000 C CNN
+F 1 "LED_Small" H 6050 5044 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 6050 4900 50  0001 C CNN
+F 3 "~" V 6050 4900 50  0001 C CNN
+	1    6050 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D55
+U 1 1 6507CF9D
+P 6350 4900
+AR Path="/64FB7FC8/6507CF9D" Ref="D55"  Part="1" 
+AR Path="/65503ECD/6507CF9D" Ref="D183"  Part="1" 
+AR Path="/65503F83/6507CF9D" Ref="D311"  Part="1" 
+F 0 "D55" H 6350 5043 50  0000 C CNN
+F 1 "LED_Small" H 6350 5044 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 6350 4900 50  0001 C CNN
+F 3 "~" V 6350 4900 50  0001 C CNN
+	1    6350 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D63
+U 1 1 6507CFA7
+P 6650 4900
+AR Path="/64FB7FC8/6507CFA7" Ref="D63"  Part="1" 
+AR Path="/65503ECD/6507CFA7" Ref="D191"  Part="1" 
+AR Path="/65503F83/6507CFA7" Ref="D319"  Part="1" 
+F 0 "D63" H 6650 5043 50  0000 C CNN
+F 1 "LED_Small" H 6650 5044 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 6650 4900 50  0001 C CNN
+F 3 "~" V 6650 4900 50  0001 C CNN
+	1    6650 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D71
+U 1 1 6507CFB1
+P 6950 4900
+AR Path="/64FB7FC8/6507CFB1" Ref="D71"  Part="1" 
+AR Path="/65503ECD/6507CFB1" Ref="D199"  Part="1" 
+AR Path="/65503F83/6507CFB1" Ref="D327"  Part="1" 
+F 0 "D71" H 6950 5043 50  0000 C CNN
+F 1 "LED_Small" H 6950 5044 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 6950 4900 50  0001 C CNN
+F 3 "~" V 6950 4900 50  0001 C CNN
+	1    6950 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D79
+U 1 1 6507CFBB
+P 7250 4900
+AR Path="/64FB7FC8/6507CFBB" Ref="D79"  Part="1" 
+AR Path="/65503ECD/6507CFBB" Ref="D207"  Part="1" 
+AR Path="/65503F83/6507CFBB" Ref="D335"  Part="1" 
+F 0 "D79" H 7250 5043 50  0000 C CNN
+F 1 "LED_Small" H 7250 5044 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 7250 4900 50  0001 C CNN
+F 3 "~" V 7250 4900 50  0001 C CNN
+	1    7250 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D87
+U 1 1 6507CFC5
+P 7550 4900
+AR Path="/64FB7FC8/6507CFC5" Ref="D87"  Part="1" 
+AR Path="/65503ECD/6507CFC5" Ref="D215"  Part="1" 
+AR Path="/65503F83/6507CFC5" Ref="D343"  Part="1" 
+F 0 "D87" H 7550 5043 50  0000 C CNN
+F 1 "LED_Small" H 7550 5044 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 7550 4900 50  0001 C CNN
+F 3 "~" V 7550 4900 50  0001 C CNN
+	1    7550 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D95
+U 1 1 6507CFCF
+P 7850 4900
+AR Path="/64FB7FC8/6507CFCF" Ref="D95"  Part="1" 
+AR Path="/65503ECD/6507CFCF" Ref="D223"  Part="1" 
+AR Path="/65503F83/6507CFCF" Ref="D351"  Part="1" 
+F 0 "D95" H 7850 5043 50  0000 C CNN
+F 1 "LED_Small" H 7850 5044 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 7850 4900 50  0001 C CNN
+F 3 "~" V 7850 4900 50  0001 C CNN
+	1    7850 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D103
+U 1 1 6507CFD9
+P 8150 4900
+AR Path="/64FB7FC8/6507CFD9" Ref="D103"  Part="1" 
+AR Path="/65503ECD/6507CFD9" Ref="D231"  Part="1" 
+AR Path="/65503F83/6507CFD9" Ref="D359"  Part="1" 
+F 0 "D103" H 8150 5043 50  0000 C CNN
+F 1 "LED_Small" H 8150 5044 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 8150 4900 50  0001 C CNN
+F 3 "~" V 8150 4900 50  0001 C CNN
+	1    8150 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D111
+U 1 1 6507CFE3
+P 8450 4900
+AR Path="/64FB7FC8/6507CFE3" Ref="D111"  Part="1" 
+AR Path="/65503ECD/6507CFE3" Ref="D239"  Part="1" 
+AR Path="/65503F83/6507CFE3" Ref="D367"  Part="1" 
+F 0 "D111" H 8450 5043 50  0000 C CNN
+F 1 "LED_Small" H 8450 5044 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 8450 4900 50  0001 C CNN
+F 3 "~" V 8450 4900 50  0001 C CNN
+	1    8450 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D119
+U 1 1 6507CFED
+P 8750 4900
+AR Path="/64FB7FC8/6507CFED" Ref="D119"  Part="1" 
+AR Path="/65503ECD/6507CFED" Ref="D247"  Part="1" 
+AR Path="/65503F83/6507CFED" Ref="D375"  Part="1" 
+F 0 "D119" H 8750 5043 50  0000 C CNN
+F 1 "LED_Small" H 8750 5044 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 8750 4900 50  0001 C CNN
+F 3 "~" V 8750 4900 50  0001 C CNN
+	1    8750 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D127
+U 1 1 6507CFF7
+P 9050 4900
+AR Path="/64FB7FC8/6507CFF7" Ref="D127"  Part="1" 
+AR Path="/65503ECD/6507CFF7" Ref="D255"  Part="1" 
+AR Path="/65503F83/6507CFF7" Ref="D383"  Part="1" 
+F 0 "D127" H 9050 5043 50  0000 C CNN
+F 1 "LED_Small" H 9050 5044 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 9050 4900 50  0001 C CNN
+F 3 "~" V 9050 4900 50  0001 C CNN
+	1    9050 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 4600 4450 4900
+Wire Wire Line
+	4750 4600 4750 4900
+Wire Wire Line
+	5050 4600 5050 4900
+Wire Wire Line
+	5350 4600 5350 4900
+Wire Wire Line
+	5650 4600 5650 4900
+Wire Wire Line
+	5950 4600 5950 4900
+Wire Wire Line
+	6250 4600 6250 4900
+Wire Wire Line
+	6550 4600 6550 4900
+Wire Wire Line
+	6850 4600 6850 4900
+Wire Wire Line
+	7150 4600 7150 4900
+Wire Wire Line
+	7450 4600 7450 4900
+Wire Wire Line
+	7750 4600 7750 4900
+Wire Wire Line
+	8050 4600 8050 4900
+Wire Wire Line
+	8350 4600 8350 4900
+Wire Wire Line
+	8650 4600 8650 4900
+Wire Wire Line
+	8950 4600 8950 4900
+Wire Wire Line
+	4350 4700 4650 4700
+Wire Wire Line
+	9150 4700 9150 4900
+Wire Wire Line
+	8850 4700 8850 4900
+Connection ~ 8850 4700
+Wire Wire Line
+	8850 4700 9150 4700
+Wire Wire Line
+	8550 4700 8550 4900
+Connection ~ 8550 4700
+Wire Wire Line
+	8550 4700 8850 4700
+Wire Wire Line
+	8250 4700 8250 4900
+Connection ~ 8250 4700
+Wire Wire Line
+	8250 4700 8550 4700
+Wire Wire Line
+	7950 4700 7950 4900
+Connection ~ 7950 4700
+Wire Wire Line
+	7950 4700 8250 4700
+Wire Wire Line
+	7650 4700 7650 4900
+Connection ~ 7650 4700
+Wire Wire Line
+	7650 4700 7950 4700
+Wire Wire Line
+	7350 4700 7350 4900
+Connection ~ 7350 4700
+Wire Wire Line
+	7350 4700 7650 4700
+Wire Wire Line
+	7050 4700 7050 4900
+Connection ~ 7050 4700
+Wire Wire Line
+	7050 4700 7350 4700
+Wire Wire Line
+	6750 4700 6750 4900
+Connection ~ 6750 4700
+Wire Wire Line
+	6750 4700 7050 4700
+Wire Wire Line
+	6450 4700 6450 4900
+Connection ~ 6450 4700
+Wire Wire Line
+	6450 4700 6750 4700
+Wire Wire Line
+	6150 4700 6150 4900
+Connection ~ 6150 4700
+Wire Wire Line
+	6150 4700 6450 4700
+Wire Wire Line
+	5850 4700 5850 4900
+Connection ~ 5850 4700
+Wire Wire Line
+	5850 4700 6150 4700
+Wire Wire Line
+	5550 4700 5550 4900
+Connection ~ 5550 4700
+Wire Wire Line
+	5550 4700 5850 4700
+Wire Wire Line
+	5250 4700 5250 4900
+Connection ~ 5250 4700
+Wire Wire Line
+	5250 4700 5550 4700
+Wire Wire Line
+	4950 4700 4950 4900
+Connection ~ 4950 4700
+Wire Wire Line
+	4950 4700 5250 4700
+Wire Wire Line
+	4650 4700 4650 4900
+Connection ~ 4650 4700
+Wire Wire Line
+	4650 4700 4950 4700
+$Comp
+L Device:LED_Small D8
+U 1 1 6507D040
+P 4550 5200
+AR Path="/64FB7FC8/6507D040" Ref="D8"  Part="1" 
+AR Path="/65503ECD/6507D040" Ref="D136"  Part="1" 
+AR Path="/65503F83/6507D040" Ref="D264"  Part="1" 
+F 0 "D8" H 4550 5343 50  0000 C CNN
+F 1 "LED_Small" H 4550 5344 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 4550 5200 50  0001 C CNN
+F 3 "~" V 4550 5200 50  0001 C CNN
+	1    4550 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D16
+U 1 1 6507D04A
+P 4850 5200
+AR Path="/64FB7FC8/6507D04A" Ref="D16"  Part="1" 
+AR Path="/65503ECD/6507D04A" Ref="D144"  Part="1" 
+AR Path="/65503F83/6507D04A" Ref="D272"  Part="1" 
+F 0 "D16" H 4850 5343 50  0000 C CNN
+F 1 "LED_Small" H 4850 5344 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 4850 5200 50  0001 C CNN
+F 3 "~" V 4850 5200 50  0001 C CNN
+	1    4850 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D24
+U 1 1 6507D054
+P 5150 5200
+AR Path="/64FB7FC8/6507D054" Ref="D24"  Part="1" 
+AR Path="/65503ECD/6507D054" Ref="D152"  Part="1" 
+AR Path="/65503F83/6507D054" Ref="D280"  Part="1" 
+F 0 "D24" H 5150 5343 50  0000 C CNN
+F 1 "LED_Small" H 5150 5344 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 5150 5200 50  0001 C CNN
+F 3 "~" V 5150 5200 50  0001 C CNN
+	1    5150 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D32
+U 1 1 6507D05E
+P 5450 5200
+AR Path="/64FB7FC8/6507D05E" Ref="D32"  Part="1" 
+AR Path="/65503ECD/6507D05E" Ref="D160"  Part="1" 
+AR Path="/65503F83/6507D05E" Ref="D288"  Part="1" 
+F 0 "D32" H 5450 5343 50  0000 C CNN
+F 1 "LED_Small" H 5450 5344 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 5450 5200 50  0001 C CNN
+F 3 "~" V 5450 5200 50  0001 C CNN
+	1    5450 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D40
+U 1 1 6507D068
+P 5750 5200
+AR Path="/64FB7FC8/6507D068" Ref="D40"  Part="1" 
+AR Path="/65503ECD/6507D068" Ref="D168"  Part="1" 
+AR Path="/65503F83/6507D068" Ref="D296"  Part="1" 
+F 0 "D40" H 5750 5343 50  0000 C CNN
+F 1 "LED_Small" H 5750 5344 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 5750 5200 50  0001 C CNN
+F 3 "~" V 5750 5200 50  0001 C CNN
+	1    5750 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D48
+U 1 1 6507D072
+P 6050 5200
+AR Path="/64FB7FC8/6507D072" Ref="D48"  Part="1" 
+AR Path="/65503ECD/6507D072" Ref="D176"  Part="1" 
+AR Path="/65503F83/6507D072" Ref="D304"  Part="1" 
+F 0 "D48" H 6050 5343 50  0000 C CNN
+F 1 "LED_Small" H 6050 5344 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 6050 5200 50  0001 C CNN
+F 3 "~" V 6050 5200 50  0001 C CNN
+	1    6050 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D56
+U 1 1 6507D07C
+P 6350 5200
+AR Path="/64FB7FC8/6507D07C" Ref="D56"  Part="1" 
+AR Path="/65503ECD/6507D07C" Ref="D184"  Part="1" 
+AR Path="/65503F83/6507D07C" Ref="D312"  Part="1" 
+F 0 "D56" H 6350 5343 50  0000 C CNN
+F 1 "LED_Small" H 6350 5344 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 6350 5200 50  0001 C CNN
+F 3 "~" V 6350 5200 50  0001 C CNN
+	1    6350 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D64
+U 1 1 6507D086
+P 6650 5200
+AR Path="/64FB7FC8/6507D086" Ref="D64"  Part="1" 
+AR Path="/65503ECD/6507D086" Ref="D192"  Part="1" 
+AR Path="/65503F83/6507D086" Ref="D320"  Part="1" 
+F 0 "D64" H 6650 5343 50  0000 C CNN
+F 1 "LED_Small" H 6650 5344 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 6650 5200 50  0001 C CNN
+F 3 "~" V 6650 5200 50  0001 C CNN
+	1    6650 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D72
+U 1 1 6507D090
+P 6950 5200
+AR Path="/64FB7FC8/6507D090" Ref="D72"  Part="1" 
+AR Path="/65503ECD/6507D090" Ref="D200"  Part="1" 
+AR Path="/65503F83/6507D090" Ref="D328"  Part="1" 
+F 0 "D72" H 6950 5343 50  0000 C CNN
+F 1 "LED_Small" H 6950 5344 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 6950 5200 50  0001 C CNN
+F 3 "~" V 6950 5200 50  0001 C CNN
+	1    6950 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D80
+U 1 1 6507D09A
+P 7250 5200
+AR Path="/64FB7FC8/6507D09A" Ref="D80"  Part="1" 
+AR Path="/65503ECD/6507D09A" Ref="D208"  Part="1" 
+AR Path="/65503F83/6507D09A" Ref="D336"  Part="1" 
+F 0 "D80" H 7250 5343 50  0000 C CNN
+F 1 "LED_Small" H 7250 5344 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 7250 5200 50  0001 C CNN
+F 3 "~" V 7250 5200 50  0001 C CNN
+	1    7250 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D88
+U 1 1 6507D0A4
+P 7550 5200
+AR Path="/64FB7FC8/6507D0A4" Ref="D88"  Part="1" 
+AR Path="/65503ECD/6507D0A4" Ref="D216"  Part="1" 
+AR Path="/65503F83/6507D0A4" Ref="D344"  Part="1" 
+F 0 "D88" H 7550 5343 50  0000 C CNN
+F 1 "LED_Small" H 7550 5344 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 7550 5200 50  0001 C CNN
+F 3 "~" V 7550 5200 50  0001 C CNN
+	1    7550 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D96
+U 1 1 6507D0AE
+P 7850 5200
+AR Path="/64FB7FC8/6507D0AE" Ref="D96"  Part="1" 
+AR Path="/65503ECD/6507D0AE" Ref="D224"  Part="1" 
+AR Path="/65503F83/6507D0AE" Ref="D352"  Part="1" 
+F 0 "D96" H 7850 5343 50  0000 C CNN
+F 1 "LED_Small" H 7850 5344 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 7850 5200 50  0001 C CNN
+F 3 "~" V 7850 5200 50  0001 C CNN
+	1    7850 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D104
+U 1 1 6507D0B8
+P 8150 5200
+AR Path="/64FB7FC8/6507D0B8" Ref="D104"  Part="1" 
+AR Path="/65503ECD/6507D0B8" Ref="D232"  Part="1" 
+AR Path="/65503F83/6507D0B8" Ref="D360"  Part="1" 
+F 0 "D104" H 8150 5343 50  0000 C CNN
+F 1 "LED_Small" H 8150 5344 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 8150 5200 50  0001 C CNN
+F 3 "~" V 8150 5200 50  0001 C CNN
+	1    8150 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D112
+U 1 1 6507D0C2
+P 8450 5200
+AR Path="/64FB7FC8/6507D0C2" Ref="D112"  Part="1" 
+AR Path="/65503ECD/6507D0C2" Ref="D240"  Part="1" 
+AR Path="/65503F83/6507D0C2" Ref="D368"  Part="1" 
+F 0 "D112" H 8450 5343 50  0000 C CNN
+F 1 "LED_Small" H 8450 5344 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 8450 5200 50  0001 C CNN
+F 3 "~" V 8450 5200 50  0001 C CNN
+	1    8450 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D120
+U 1 1 6507D0CC
+P 8750 5200
+AR Path="/64FB7FC8/6507D0CC" Ref="D120"  Part="1" 
+AR Path="/65503ECD/6507D0CC" Ref="D248"  Part="1" 
+AR Path="/65503F83/6507D0CC" Ref="D376"  Part="1" 
+F 0 "D120" H 8750 5343 50  0000 C CNN
+F 1 "LED_Small" H 8750 5344 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 8750 5200 50  0001 C CNN
+F 3 "~" V 8750 5200 50  0001 C CNN
+	1    8750 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D128
+U 1 1 6507D0D6
+P 9050 5200
+AR Path="/64FB7FC8/6507D0D6" Ref="D128"  Part="1" 
+AR Path="/65503ECD/6507D0D6" Ref="D256"  Part="1" 
+AR Path="/65503F83/6507D0D6" Ref="D384"  Part="1" 
+F 0 "D128" H 9050 5343 50  0000 C CNN
+F 1 "LED_Small" H 9050 5344 50  0001 C CNN
+F 2 "sunflower:LED_D5.0mm" V 9050 5200 50  0001 C CNN
+F 3 "~" V 9050 5200 50  0001 C CNN
+	1    9050 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 4900 4450 5200
+Wire Wire Line
+	4750 4900 4750 5200
+Wire Wire Line
+	5050 4900 5050 5200
+Wire Wire Line
+	5350 4900 5350 5200
+Wire Wire Line
+	5650 4900 5650 5200
+Wire Wire Line
+	5950 4900 5950 5200
+Wire Wire Line
+	6250 4900 6250 5200
+Wire Wire Line
+	6550 4900 6550 5200
+Wire Wire Line
+	6850 4900 6850 5200
+Wire Wire Line
+	7150 4900 7150 5200
+Wire Wire Line
+	7450 4900 7450 5200
+Wire Wire Line
+	7750 4900 7750 5200
+Wire Wire Line
+	8050 4900 8050 5200
+Wire Wire Line
+	8350 4900 8350 5200
+Wire Wire Line
+	8650 4900 8650 5200
+Wire Wire Line
+	8950 4900 8950 5200
+Wire Wire Line
+	4350 5000 4650 5000
+Wire Wire Line
+	9150 5000 9150 5200
+Wire Wire Line
+	8850 5000 8850 5200
+Connection ~ 8850 5000
+Wire Wire Line
+	8850 5000 9150 5000
+Wire Wire Line
+	8550 5000 8550 5200
+Connection ~ 8550 5000
+Wire Wire Line
+	8550 5000 8850 5000
+Wire Wire Line
+	8250 5000 8250 5200
+Connection ~ 8250 5000
+Wire Wire Line
+	8250 5000 8550 5000
+Wire Wire Line
+	7950 5000 7950 5200
+Connection ~ 7950 5000
+Wire Wire Line
+	7950 5000 8250 5000
+Wire Wire Line
+	7650 5000 7650 5200
+Connection ~ 7650 5000
+Wire Wire Line
+	7650 5000 7950 5000
+Wire Wire Line
+	7350 5000 7350 5200
+Connection ~ 7350 5000
+Wire Wire Line
+	7350 5000 7650 5000
+Wire Wire Line
+	7050 5000 7050 5200
+Connection ~ 7050 5000
+Wire Wire Line
+	7050 5000 7350 5000
+Wire Wire Line
+	6750 5000 6750 5200
+Connection ~ 6750 5000
+Wire Wire Line
+	6750 5000 7050 5000
+Wire Wire Line
+	6450 5000 6450 5200
+Connection ~ 6450 5000
+Wire Wire Line
+	6450 5000 6750 5000
+Wire Wire Line
+	6150 5000 6150 5200
+Connection ~ 6150 5000
+Wire Wire Line
+	6150 5000 6450 5000
+Wire Wire Line
+	5850 5000 5850 5200
+Connection ~ 5850 5000
+Wire Wire Line
+	5850 5000 6150 5000
+Wire Wire Line
+	5550 5000 5550 5200
+Connection ~ 5550 5000
+Wire Wire Line
+	5550 5000 5850 5000
+Wire Wire Line
+	5250 5000 5250 5200
+Connection ~ 5250 5000
+Wire Wire Line
+	5250 5000 5550 5000
+Wire Wire Line
+	4950 5000 4950 5200
+Connection ~ 4950 5000
+Wire Wire Line
+	4950 5000 5250 5000
+Wire Wire Line
+	4650 5000 4650 5200
+Connection ~ 4650 5000
+Wire Wire Line
+	4650 5000 4950 5000
+Connection ~ 4450 4900
+Connection ~ 4750 4900
+Connection ~ 5050 4900
+Connection ~ 5350 4900
+Connection ~ 5650 4900
+Connection ~ 5950 4900
+Connection ~ 6250 4900
+Connection ~ 6550 4900
+Connection ~ 6850 4900
+Connection ~ 7150 4900
+Connection ~ 7450 4900
+Connection ~ 7750 4900
+Connection ~ 8050 4900
+Connection ~ 8350 4900
+Connection ~ 8650 4900
+Connection ~ 8950 4900
+Connection ~ 4450 4600
+Connection ~ 4750 4600
+Connection ~ 5050 4600
+Connection ~ 5350 4600
+Connection ~ 5650 4600
+Connection ~ 5950 4600
+Connection ~ 6250 4600
+Connection ~ 6550 4600
+Connection ~ 6850 4600
+Connection ~ 7150 4600
+Connection ~ 7450 4600
+Connection ~ 7750 4600
+Connection ~ 8050 4600
+Connection ~ 8350 4600
+Connection ~ 8650 4600
+Connection ~ 8950 4600
+Connection ~ 4450 4000
+Connection ~ 4750 4000
+Connection ~ 5050 4000
+Connection ~ 5350 4000
+Connection ~ 5650 4000
+Connection ~ 5950 4000
+Connection ~ 6250 4000
+Connection ~ 6550 4000
+Connection ~ 6850 4000
+Connection ~ 7150 4000
+Connection ~ 7450 4000
+Connection ~ 7750 4000
+Connection ~ 8050 4000
+Connection ~ 8350 4000
+Connection ~ 8650 4000
+Connection ~ 8950 4000
+Text Label 4350 3200 2    50   ~ 0
+SEG2
+Text Label 4350 3500 2    50   ~ 0
+SEG3
+Text Label 4350 3800 2    50   ~ 0
+SEG4
+Text Label 4350 4100 2    50   ~ 0
+SEG5
+Text Label 4350 4400 2    50   ~ 0
+SEG6
+Text Label 4350 4700 2    50   ~ 0
+SEG7
+Text Label 4350 5000 2    50   ~ 0
+SEG8
+Text Label 1750 1650 2    50   ~ 0
+SEG1
+Text Label 1750 1750 2    50   ~ 0
+SEG2
+Text Label 1750 1850 2    50   ~ 0
+SEG3
+Text Label 1750 1950 2    50   ~ 0
+SEG4
+Text Label 1750 2050 2    50   ~ 0
+SEG5
+Text Label 1750 2150 2    50   ~ 0
+SEG6
+Text Label 1750 2250 2    50   ~ 0
+SEG7
+Text Label 1750 2350 2    50   ~ 0
+SEG8
+Text Label 4750 2800 0    50   ~ 0
+GRID2
+Text Label 5050 2800 0    50   ~ 0
+GRID3
+Text Label 5350 2800 0    50   ~ 0
+GRID4
+Text Label 5650 2800 0    50   ~ 0
+GRID5
+Text Label 5950 2800 0    50   ~ 0
+GRID6
+Text Label 6250 2800 0    50   ~ 0
+GRID7
+Text Label 6550 2800 0    50   ~ 0
+GRID8
+Text Label 6850 2800 0    50   ~ 0
+GRID9
+Text Label 7150 2800 0    50   ~ 0
+GRID10
+Text Label 7450 2800 0    50   ~ 0
+GRID11
+Text Label 7750 2800 0    50   ~ 0
+GRID12
+Text Label 8050 2800 0    50   ~ 0
+GRID13
+Text Label 8350 2800 0    50   ~ 0
+GRID14
+Text Label 8650 2800 0    50   ~ 0
+GRID15
+Text Label 8950 2800 0    50   ~ 0
+GRID16
+Text Label 2950 1650 0    50   ~ 0
+GRID1
+Text Label 2950 1750 0    50   ~ 0
+GRID2
+Text Label 2950 1850 0    50   ~ 0
+GRID3
+Text Label 2950 1950 0    50   ~ 0
+GRID4
+Text Label 2950 2050 0    50   ~ 0
+GRID5
+Text Label 2950 2150 0    50   ~ 0
+GRID6
+Text Label 2950 2250 0    50   ~ 0
+GRID7
+Text Label 2950 2350 0    50   ~ 0
+GRID8
+Text Label 2950 2450 0    50   ~ 0
+GRID9
+Text Label 2950 2550 0    50   ~ 0
+GRID10
+Text Label 2950 2650 0    50   ~ 0
+GRID11
+Text Label 2950 2750 0    50   ~ 0
+GRID12
+Text Label 2950 2850 0    50   ~ 0
+GRID13
+Text Label 2950 2950 0    50   ~ 0
+GRID14
+Text Label 2950 3050 0    50   ~ 0
+GRID15
+Text Label 2950 3150 0    50   ~ 0
+GRID16
+Text HLabel 950  950  0    50   Input ~ 0
+DIN
+Text HLabel 950  1050 0    50   Input ~ 0
+SCLK
+Text Label 1200 950  0    50   ~ 0
+DIN
+Text Label 1200 1050 0    50   ~ 0
+SCLK
+Wire Wire Line
+	950  950  1200 950 
+Wire Wire Line
+	950  1050 1200 1050
+Text Label 1750 2650 2    50   ~ 0
+DIN
+Text Label 1750 2750 2    50   ~ 0
+SCLK
+Text GLabel 900  600  0    50   Input ~ 0
+5V
+Text GLabel 900  750  0    50   Input ~ 0
+GND
+Text Label 1200 600  0    50   ~ 0
+5V
+Text Label 1200 750  0    50   ~ 0
+GND
+Wire Wire Line
+	900  600  1200 600 
+Wire Wire Line
+	900  750  1200 750 
+Text Label 1750 3050 2    50   ~ 0
+5V
+Text Label 1750 3150 2    50   ~ 0
+GND
+Connection ~ 4450 3100
+Text Label 4450 2800 0    50   ~ 0
+GRID1
+Text Label 4350 2900 2    50   ~ 0
+SEG1
+Wire Wire Line
+	4450 2800 4450 3100
+Wire Wire Line
+	4450 5200 4450 5300
+Connection ~ 4450 5200
+Wire Wire Line
+	4750 5200 4750 5300
+Wire Wire Line
+	5050 5200 5050 5300
+Wire Wire Line
+	5350 5200 5350 5300
+Wire Wire Line
+	5650 5200 5650 5300
+Wire Wire Line
+	5950 5200 5950 5300
+Wire Wire Line
+	6250 5200 6250 5300
+Wire Wire Line
+	6550 5200 6550 5300
+Wire Wire Line
+	6850 5200 6850 5300
+Wire Wire Line
+	7150 5200 7150 5300
+Wire Wire Line
+	7450 5200 7450 5300
+$Comp
+L Connector_Generic:Conn_01x01 G43
+U 1 1 657AF3C5
+P 7450 5500
+AR Path="/65503F83/657AF3C5" Ref="G43"  Part="1" 
+AR Path="/64FB7FC8/657AF3C5" Ref="G11"  Part="1" 
+AR Path="/65503ECD/657AF3C5" Ref="G27"  Part="1" 
+F 0 "G11" V 7300 5550 50  0000 L CNN
+F 1 "Conn_01x01" V 7413 5580 50  0001 L CNN
+F 2 "sunflower:Link_Square" H 7450 5500 50  0001 C CNN
+F 3 "~" H 7450 5500 50  0001 C CNN
+	1    7450 5500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7750 5200 7750 5300
+Wire Wire Line
+	8050 5200 8050 5300
+Wire Wire Line
+	8350 5200 8350 5300
+$Comp
+L Connector_Generic:Conn_01x01 G46
+U 1 1 65844300
+P 8350 5500
+AR Path="/65503F83/65844300" Ref="G46"  Part="1" 
+AR Path="/64FB7FC8/65844300" Ref="G14"  Part="1" 
+AR Path="/65503ECD/65844300" Ref="G30"  Part="1" 
+F 0 "G14" V 8200 5550 50  0000 L CNN
+F 1 "Conn_01x01" V 8313 5580 50  0001 L CNN
+F 2 "sunflower:Link_Square" H 8350 5500 50  0001 C CNN
+F 3 "~" H 8350 5500 50  0001 C CNN
+	1    8350 5500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8650 5200 8650 5300
+$Comp
+L Connector_Generic:Conn_01x01 G47
+U 1 1 658765E1
+P 8650 5500
+AR Path="/65503F83/658765E1" Ref="G47"  Part="1" 
+AR Path="/64FB7FC8/658765E1" Ref="G15"  Part="1" 
+AR Path="/65503ECD/658765E1" Ref="G31"  Part="1" 
+F 0 "G15" V 8500 5550 50  0000 L CNN
+F 1 "Conn_01x01" V 8613 5580 50  0001 L CNN
+F 2 "sunflower:Link_Square" H 8650 5500 50  0001 C CNN
+F 3 "~" H 8650 5500 50  0001 C CNN
+	1    8650 5500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8950 5200 8950 5300
+$Comp
+L Connector_Generic:Conn_01x01 G48
+U 1 1 658DCD56
+P 8950 5500
+AR Path="/65503F83/658DCD56" Ref="G48"  Part="1" 
+AR Path="/64FB7FC8/658DCD56" Ref="G16"  Part="1" 
+AR Path="/65503ECD/658DCD56" Ref="G32"  Part="1" 
+F 0 "G16" V 8800 5550 50  0000 L CNN
+F 1 "Conn_01x01" V 8913 5580 50  0001 L CNN
+F 2 "sunflower:Link_Square" H 8950 5500 50  0001 C CNN
+F 3 "~" H 8950 5500 50  0001 C CNN
+	1    8950 5500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9150 2900 9250 2900
+$Comp
+L Connector_Generic:Conn_01x01 S17
+U 1 1 65919B00
+P 9450 2900
+AR Path="/65503F83/65919B00" Ref="S17"  Part="1" 
+AR Path="/64FB7FC8/65919B00" Ref="S1"  Part="1" 
+AR Path="/65503ECD/65919B00" Ref="S9"  Part="1" 
+F 0 "S1" H 9300 2750 50  0000 L CNN
+F 1 "Conn_01x01" V 9413 2980 50  0001 L CNN
+F 2 "sunflower:Link_Round" H 9450 2900 50  0001 C CNN
+F 3 "~" H 9450 2900 50  0001 C CNN
+	1    9450 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 3200 9250 3200
+$Comp
+L Connector_Generic:Conn_01x01 S18
+U 1 1 6599376A
+P 9450 3200
+AR Path="/65503F83/6599376A" Ref="S18"  Part="1" 
+AR Path="/64FB7FC8/6599376A" Ref="S2"  Part="1" 
+AR Path="/65503ECD/6599376A" Ref="S10"  Part="1" 
+F 0 "S2" H 9300 3050 50  0000 L CNN
+F 1 "Conn_01x01" V 9413 3280 50  0001 L CNN
+F 2 "sunflower:Link_Round" H 9450 3200 50  0001 C CNN
+F 3 "~" H 9450 3200 50  0001 C CNN
+	1    9450 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 3500 9250 3500
+$Comp
+L Connector_Generic:Conn_01x01 S19
+U 1 1 659C5DF5
+P 9450 3500
+AR Path="/65503F83/659C5DF5" Ref="S19"  Part="1" 
+AR Path="/64FB7FC8/659C5DF5" Ref="S3"  Part="1" 
+AR Path="/65503ECD/659C5DF5" Ref="S11"  Part="1" 
+F 0 "S3" H 9300 3350 50  0000 L CNN
+F 1 "Conn_01x01" V 9413 3580 50  0001 L CNN
+F 2 "sunflower:Link_Round" H 9450 3500 50  0001 C CNN
+F 3 "~" H 9450 3500 50  0001 C CNN
+	1    9450 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 3800 9250 3800
+$Comp
+L Connector_Generic:Conn_01x01 S20
+U 1 1 659F86D7
+P 9450 3800
+AR Path="/65503F83/659F86D7" Ref="S20"  Part="1" 
+AR Path="/64FB7FC8/659F86D7" Ref="S4"  Part="1" 
+AR Path="/65503ECD/659F86D7" Ref="S12"  Part="1" 
+F 0 "S4" H 9300 3650 50  0000 L CNN
+F 1 "Conn_01x01" V 9413 3880 50  0001 L CNN
+F 2 "sunflower:Link_Round" H 9450 3800 50  0001 C CNN
+F 3 "~" H 9450 3800 50  0001 C CNN
+	1    9450 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 4100 9250 4100
+$Comp
+L Connector_Generic:Conn_01x01 S21
+U 1 1 65A2CF41
+P 9450 4100
+AR Path="/65503F83/65A2CF41" Ref="S21"  Part="1" 
+AR Path="/64FB7FC8/65A2CF41" Ref="S5"  Part="1" 
+AR Path="/65503ECD/65A2CF41" Ref="S13"  Part="1" 
+F 0 "S5" H 9300 3950 50  0000 L CNN
+F 1 "Conn_01x01" V 9413 4180 50  0001 L CNN
+F 2 "sunflower:Link_Round" H 9450 4100 50  0001 C CNN
+F 3 "~" H 9450 4100 50  0001 C CNN
+	1    9450 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 4400 9250 4400
+Wire Wire Line
+	9150 4700 9250 4700
+Wire Wire Line
+	9150 5000 9250 5000
+$Comp
+L Connector_Generic:Conn_01x01 G45
+U 1 1 6581246F
+P 8050 5500
+AR Path="/65503F83/6581246F" Ref="G45"  Part="1" 
+AR Path="/64FB7FC8/6581246F" Ref="G13"  Part="1" 
+AR Path="/65503ECD/6581246F" Ref="G29"  Part="1" 
+F 0 "G13" V 7900 5550 50  0000 L CNN
+F 1 "Conn_01x01" V 8013 5580 50  0001 L CNN
+F 2 "sunflower:Link_Square" H 8050 5500 50  0001 C CNN
+F 3 "~" H 8050 5500 50  0001 C CNN
+	1    8050 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 G44
+U 1 1 657E0A53
+P 7750 5500
+AR Path="/65503F83/657E0A53" Ref="G44"  Part="1" 
+AR Path="/64FB7FC8/657E0A53" Ref="G12"  Part="1" 
+AR Path="/65503ECD/657E0A53" Ref="G28"  Part="1" 
+F 0 "G12" V 7600 5550 50  0000 L CNN
+F 1 "Conn_01x01" V 7713 5580 50  0001 L CNN
+F 2 "sunflower:Link_Square" H 7750 5500 50  0001 C CNN
+F 3 "~" H 7750 5500 50  0001 C CNN
+	1    7750 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 G42
+U 1 1 6577B6BA
+P 7150 5500
+AR Path="/65503F83/6577B6BA" Ref="G42"  Part="1" 
+AR Path="/64FB7FC8/6577B6BA" Ref="G10"  Part="1" 
+AR Path="/65503ECD/6577B6BA" Ref="G26"  Part="1" 
+F 0 "G10" V 7000 5550 50  0000 L CNN
+F 1 "Conn_01x01" V 7113 5580 50  0001 L CNN
+F 2 "sunflower:Link_Square" H 7150 5500 50  0001 C CNN
+F 3 "~" H 7150 5500 50  0001 C CNN
+	1    7150 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 G41
+U 1 1 6574AA93
+P 6850 5500
+AR Path="/65503F83/6574AA93" Ref="G41"  Part="1" 
+AR Path="/64FB7FC8/6574AA93" Ref="G9"  Part="1" 
+AR Path="/65503ECD/6574AA93" Ref="G25"  Part="1" 
+F 0 "G9" V 6700 5550 50  0000 L CNN
+F 1 "Conn_01x01" V 6813 5580 50  0001 L CNN
+F 2 "sunflower:Link_Square" H 6850 5500 50  0001 C CNN
+F 3 "~" H 6850 5500 50  0001 C CNN
+	1    6850 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 G40
+U 1 1 6571A3EF
+P 6550 5500
+AR Path="/65503F83/6571A3EF" Ref="G40"  Part="1" 
+AR Path="/64FB7FC8/6571A3EF" Ref="G8"  Part="1" 
+AR Path="/65503ECD/6571A3EF" Ref="G24"  Part="1" 
+F 0 "G8" V 6400 5550 50  0000 L CNN
+F 1 "Conn_01x01" V 6513 5580 50  0001 L CNN
+F 2 "sunflower:Link_Square" H 6550 5500 50  0001 C CNN
+F 3 "~" H 6550 5500 50  0001 C CNN
+	1    6550 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 G39
+U 1 1 656E72E1
+P 6250 5500
+AR Path="/65503F83/656E72E1" Ref="G39"  Part="1" 
+AR Path="/64FB7FC8/656E72E1" Ref="G7"  Part="1" 
+AR Path="/65503ECD/656E72E1" Ref="G23"  Part="1" 
+F 0 "G7" V 6100 5550 50  0000 L CNN
+F 1 "Conn_01x01" V 6213 5580 50  0001 L CNN
+F 2 "sunflower:Link_Square" H 6250 5500 50  0001 C CNN
+F 3 "~" H 6250 5500 50  0001 C CNN
+	1    6250 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 G38
+U 1 1 656B7356
+P 5950 5500
+AR Path="/65503F83/656B7356" Ref="G38"  Part="1" 
+AR Path="/64FB7FC8/656B7356" Ref="G6"  Part="1" 
+AR Path="/65503ECD/656B7356" Ref="G22"  Part="1" 
+F 0 "G6" V 5800 5550 50  0000 L CNN
+F 1 "Conn_01x01" V 5913 5580 50  0001 L CNN
+F 2 "sunflower:Link_Square" H 5950 5500 50  0001 C CNN
+F 3 "~" H 5950 5500 50  0001 C CNN
+	1    5950 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 G37
+U 1 1 656878E1
+P 5650 5500
+AR Path="/65503F83/656878E1" Ref="G37"  Part="1" 
+AR Path="/64FB7FC8/656878E1" Ref="G5"  Part="1" 
+AR Path="/65503ECD/656878E1" Ref="G21"  Part="1" 
+F 0 "G5" V 5500 5550 50  0000 L CNN
+F 1 "Conn_01x01" V 5613 5580 50  0001 L CNN
+F 2 "sunflower:Link_Square" H 5650 5500 50  0001 C CNN
+F 3 "~" H 5650 5500 50  0001 C CNN
+	1    5650 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 G36
+U 1 1 65658425
+P 5350 5500
+AR Path="/65503F83/65658425" Ref="G36"  Part="1" 
+AR Path="/64FB7FC8/65658425" Ref="G4"  Part="1" 
+AR Path="/65503ECD/65658425" Ref="G20"  Part="1" 
+F 0 "G4" V 5200 5550 50  0000 L CNN
+F 1 "Conn_01x01" V 5313 5580 50  0001 L CNN
+F 2 "sunflower:Link_Square" H 5350 5500 50  0001 C CNN
+F 3 "~" H 5350 5500 50  0001 C CNN
+	1    5350 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 G35
+U 1 1 65622DC9
+P 5050 5500
+AR Path="/65503F83/65622DC9" Ref="G35"  Part="1" 
+AR Path="/64FB7FC8/65622DC9" Ref="G3"  Part="1" 
+AR Path="/65503ECD/65622DC9" Ref="G19"  Part="1" 
+F 0 "G3" V 4900 5550 50  0000 L CNN
+F 1 "Conn_01x01" V 5013 5580 50  0001 L CNN
+F 2 "sunflower:Link_Square" H 5050 5500 50  0001 C CNN
+F 3 "~" H 5050 5500 50  0001 C CNN
+	1    5050 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 G34
+U 1 1 655F44A2
+P 4750 5500
+AR Path="/65503F83/655F44A2" Ref="G34"  Part="1" 
+AR Path="/64FB7FC8/655F44A2" Ref="G2"  Part="1" 
+AR Path="/65503ECD/655F44A2" Ref="G18"  Part="1" 
+F 0 "G2" V 4600 5550 50  0000 L CNN
+F 1 "Conn_01x01" V 4713 5580 50  0001 L CNN
+F 2 "sunflower:Link_Square" H 4750 5500 50  0001 C CNN
+F 3 "~" H 4750 5500 50  0001 C CNN
+	1    4750 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 G33
+U 1 1 655CC5D2
+P 4450 5500
+AR Path="/65503F83/655CC5D2" Ref="G33"  Part="1" 
+AR Path="/64FB7FC8/655CC5D2" Ref="G1"  Part="1" 
+AR Path="/65503ECD/655CC5D2" Ref="G17"  Part="1" 
+F 0 "G1" V 4300 5550 50  0000 L CNN
+F 1 "Conn_01x01" V 4413 5580 50  0001 L CNN
+F 2 "sunflower:Link_Square" H 4450 5500 50  0001 C CNN
+F 3 "~" H 4450 5500 50  0001 C CNN
+	1    4450 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 S22
+U 1 1 65A5FB76
+P 9450 4400
+AR Path="/65503F83/65A5FB76" Ref="S22"  Part="1" 
+AR Path="/64FB7FC8/65A5FB76" Ref="S6"  Part="1" 
+AR Path="/65503ECD/65A5FB76" Ref="S14"  Part="1" 
+F 0 "S6" H 9300 4250 50  0000 L CNN
+F 1 "Conn_01x01" V 9413 4480 50  0001 L CNN
+F 2 "sunflower:Link_Round" H 9450 4400 50  0001 C CNN
+F 3 "~" H 9450 4400 50  0001 C CNN
+	1    9450 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 S23
+U 1 1 65A92975
+P 9450 4700
+AR Path="/65503F83/65A92975" Ref="S23"  Part="1" 
+AR Path="/64FB7FC8/65A92975" Ref="S7"  Part="1" 
+AR Path="/65503ECD/65A92975" Ref="S15"  Part="1" 
+F 0 "S7" H 9300 4550 50  0000 L CNN
+F 1 "Conn_01x01" V 9413 4780 50  0001 L CNN
+F 2 "sunflower:Link_Round" H 9450 4700 50  0001 C CNN
+F 3 "~" H 9450 4700 50  0001 C CNN
+	1    9450 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 S24
+U 1 1 65AC592B
+P 9450 5000
+AR Path="/65503F83/65AC592B" Ref="S24"  Part="1" 
+AR Path="/64FB7FC8/65AC592B" Ref="S8"  Part="1" 
+AR Path="/65503ECD/65AC592B" Ref="S16"  Part="1" 
+F 0 "S8" H 9300 4850 50  0000 L CNN
+F 1 "Conn_01x01" V 9413 5080 50  0001 L CNN
+F 2 "sunflower:Link_Round" H 9450 5000 50  0001 C CNN
+F 3 "~" H 9450 5000 50  0001 C CNN
+	1    9450 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 6700 1900 6700
+Wire Wire Line
+	1800 7200 1800 7350
+Wire Wire Line
+	1900 7350 1800 7350
+Text Label 1900 7350 0    50   ~ 0
+GND
+Text Label 1900 6700 0    50   ~ 0
+5V
+Wire Wire Line
+	1800 6800 1800 6700
+Wire Wire Line
+	1800 7200 2400 7200
+Connection ~ 1800 7200
+Wire Wire Line
+	1800 7100 1800 7200
+Wire Wire Line
+	2400 7200 2400 7100
+Wire Wire Line
+	1150 7200 1800 7200
+Wire Wire Line
+	1150 7100 1150 7200
+Wire Wire Line
+	1800 6800 2400 6800
+Connection ~ 1800 6800
+Wire Wire Line
+	1800 6900 1800 6800
+Wire Wire Line
+	2400 6800 2400 6900
+Wire Wire Line
+	1150 6800 1800 6800
+Wire Wire Line
+	1150 6900 1150 6800
+$Comp
+L Device:CP_Small C12
+U 1 1 66B1695C
+P 1800 7000
+AR Path="/64FB7FC8/66B1695C" Ref="C12"  Part="1" 
+AR Path="/65503ECD/66B1695C" Ref="C22"  Part="1" 
+AR Path="/65503F83/66B1695C" Ref="C32"  Part="1" 
+F 0 "C12" H 1888 7046 50  0000 L CNN
+F 1 "10u" H 1888 6955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1800 7000 50  0001 C CNN
+F 3 "~" H 1800 7000 50  0001 C CNN
+	1    1800 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C11
+U 1 1 66B15A2B
+P 1150 7000
+AR Path="/64FB7FC8/66B15A2B" Ref="C11"  Part="1" 
+AR Path="/65503ECD/66B15A2B" Ref="C21"  Part="1" 
+AR Path="/65503F83/66B15A2B" Ref="C31"  Part="1" 
+F 0 "C11" H 1238 7046 50  0000 L CNN
+F 1 "100n" H 1238 6955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1150 7000 50  0001 C CNN
+F 3 "~" H 1150 7000 50  0001 C CNN
+	1    1150 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C13
+U 1 1 66B17C7E
+P 2400 7000
+AR Path="/64FB7FC8/66B17C7E" Ref="C13"  Part="1" 
+AR Path="/65503ECD/66B17C7E" Ref="C23"  Part="1" 
+AR Path="/65503F83/66B17C7E" Ref="C33"  Part="1" 
+F 0 "C13" H 2488 7046 50  0000 L CNN
+F 1 "47u" H 2488 6955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 2400 7000 50  0001 C CNN
+F 3 "~" H 2400 7000 50  0001 C CNN
+	1    2400 7000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
